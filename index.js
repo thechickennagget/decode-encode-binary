@@ -19,7 +19,6 @@ encode: function(text){
   return toText(text); }catch(err){ console.error(err.stack); };
   },
   
-version: function(){
- return version;
-}
+version: function(){ try{ return version; }catch(err){ console.log(err.stack)};
+   }
 };
