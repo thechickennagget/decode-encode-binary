@@ -1,0 +1,26 @@
+{
+  "name": "decode-and-encode-binary-text",
+  "version": "0.0.4",
+  "description": "decode and encode text to binary",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-to-text.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues"
+  },
+  "homepage": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-to-text/blob/master/README.md",
+  "keywords": [
+    "decode-binary",
+    "encode-binary",
+    "encode-decode-binary",
+    "binary to text"
+  ]
+}
