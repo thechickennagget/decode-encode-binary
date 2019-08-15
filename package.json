@@ -1,6 +1,6 @@
 {
   "name": "decode-and-encode-binary-text",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "decode and encode text to binary",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/blob/master/README.md",
   "keywords": [
-    "decode-binary",
-    "encode-binary",
-    "encode-decode-binary",
+    "decode binary",
+    "encode binary",
+    "encode decode binary",
     "binary to text"
   ]
 }
