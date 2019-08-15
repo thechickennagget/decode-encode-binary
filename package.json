@@ -1,6 +1,6 @@
 {
   "name": "decode-and-encode-binary-text",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "decode and encode text to binary",
   "main": "index.js",
   "scripts": {
