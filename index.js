@@ -52,13 +52,12 @@ module.exports = {
 			console.log(err.stack)
 		};
 	},
-	auto: function (detect) {
+	auto: function (detect) {	if (!detect) {
+if (!detect) { throw new Error('No Text to decode / encode was provided')
+} else if (detect === ' ') { throw new Error('Text cannot be empty string')}};
+
 		if (detect.startsWith("0" || "1") || detect.endsWith("1" || "0")) {
-			if (!detect) {
-				throw new Error('No Text to decode was provided');
-			} else if (detect === ' ') {
-				throw new Error('Text cannot be empty string');
-			};
+		
 			try {
 				function toBinary(tobin) {
 					tobin = tobin.replace(/\s+/g, '');
