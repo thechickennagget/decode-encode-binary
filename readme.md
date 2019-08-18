@@ -1,6 +1,7 @@
 ## Decode and encode text to binary 
 ### Node module to encode and decode binary numbers
 [![NPM](https://nodei.co/npm/decode-and-encode-binary-text.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/decode-and-encode-binary-text/)
+[![Build Status](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text)
 ------
 ## Installation
 ##### using npm:
