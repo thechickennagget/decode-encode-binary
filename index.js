@@ -17,7 +17,7 @@ module.exports = {
 					return tobin.split(" ").map(function (elem) {
 						return String.fromCharCode(parseInt(elem, 2));
 					}).join("");
-				};
+				}
 				return toBinary(binary).toString();
 			} catch (err) {
 				throw new Error(err.stack);
@@ -31,7 +31,8 @@ module.exports = {
 			throw new Error('Text cannot be empty string');
 		}
 
-			function toText(str, spaceSeparatedOctets) {
+			try{ 
+			 function toText(str,spaceSeparatedOctets) {
 				function zeroPad(num) {
 					return '00000000'.slice(String(num).length) + num;
 				}
@@ -41,20 +42,23 @@ module.exports = {
           return !1 === spaceSeparatedOctets ? str : `${str} `;
           }else{
           return !1 === spaceSeparatedOctets ? str : `${str}`;}
-          })
+          });
       }
-      return toText(text).toString();
+	  return toText(text).toString();
+	}catch (err){
+	throw new Error(`${err.stack}`);
+	   }
 	},
 	version: function () {
 		try {
 			return require("./package.json").version;
 		} catch (err) {
-			console.log(err.stack)
-		};
+			throw new Error(err.stack);
+		}
 	},
 	auto: function (detect) {	if (!detect) {
-if (!detect) { throw new Error('No Text to decode / encode was provided')
-} else if (detect === ' ') { throw new Error('Text cannot be empty string')}};
+if (!detect) { throw new Error('No Text to decode / encode was provided');
+} else if (detect === ' ') { throw new Error('Text cannot be empty string'); } }
 
 		if (/^[01][01\s]*[01]$/.test(detect)) {
 
@@ -75,16 +79,16 @@ if (!detect) { throw new Error('No Text to decode / encode was provided')
 				throw new Error('No Text to encode was provided');
 			} else if (detect === ' ') {
 				throw new Error('Text cannot be empty string');
-			};
+			}
 			try {
-				function toText(str, spaceSeparatedOctets) {
+				function toText(str,spaceSeparatedOctets) {
 					function zeroPad(num) {
 						return '00000000'.slice(String(num).length) + num;
-					}
+	                }
 					return str.replace(/[\s\S]/g, (str) => {
 						str = zeroPad(str.charCodeAt().toString(2));
 						return !1 === spaceSeparatedOctets ? str : `${str} `;
-					})
+					});
 				}
 				return toText(detect).toString();
 			} catch (err) {
@@ -92,4 +96,5 @@ if (!detect) { throw new Error('No Text to decode / encode was provided')
 			}
 		}
 	}
-}
+	
+};
