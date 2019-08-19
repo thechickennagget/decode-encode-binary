@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text.git"
   },
-  "dependencies": 
+  "dependencies": {
   "common-js": "^0.3.8"
   },
   "devDependencies": {
