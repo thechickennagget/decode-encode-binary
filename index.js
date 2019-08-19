@@ -1,5 +1,14 @@
 "use strict";
 module.exports = {
+		/**
+ * Decodes a binary code to text
+ * @param {string} binary
+ * @example 
+ * 
+ * const test = require("decode-and-encode-binary-text")
+ * console.log(test.decode("0100100001100101011011000110110001101111"))
+ * // outputs "Hello"
+ */
 	decode: function (binary) {
 		
       if (!binary) {
@@ -27,6 +36,21 @@ module.exports = {
 			}
 		}
 	},
+	
+/**
+ * Encodes a text to binary
+ * @param {string} text
+ * @param {boolean} spaces
+ * @example
+ * var test = require("decode-and-encode-binary-text")
+ * console.log(test.encode("Hello"))
+ * // outputs "0100100001100101011011000110110001101111"
+ * 
+ * // second example using "spaces"
+ * var test = require("decode-and-encode-binary-text")
+ * console.log(test.encode("Hello", true))
+ * // outputs "01001000 01100101 01101100 01101100 01101111"
+ */
 	encode: function (text, spaces) {
 		if (!text) {
 			throw new Error('No Text to encode was provided');
@@ -55,6 +79,14 @@ module.exports = {
 	throw new Error(`Error ${err.stack}`);
 	   }
 	},
+	
+/**
+ * Checks current version of this dependency
+ * @example
+ * const test = require("decode-and-encode-binary-text")
+ * console.log(test.version())
+ * // outputs current this dependency version
+ */
 	version: function () {
 		try {
 			return require("./package.json").version;
@@ -62,6 +94,18 @@ module.exports = {
 			throw new Error(err.stack);
 		}
 	},
+	
+/**
+ * Automatically detect if you want to decode or encode 
+ * @param {string} detect
+ * @example
+ * var test = require("decode-and-encode-binary-text")
+ * console.log(test.auto("Hello"))
+ * // outputs "0100100001100101011011000110110001101111"
+ * 
+ * console.log(test.auto("0100100001100101011011000110110001101111"))
+ * // outputs "Hello"
+ */
 	auto: function (detect) {	if (!detect) {
 if (!detect) { throw new Error('No Text to decode / encode was provided');
 } else if (detect === ' ') { throw new Error('Text cannot be empty string'); } }
