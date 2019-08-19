@@ -1,5 +1,5 @@
-## Decode and encode text to binary
-### Node module to encode and decode binary numbers
+# Decode and encode text to binary
+### Node module to encode, decode and auto-detect binary numbers
 [![Build Status](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text)
 [![install size](https://packagephobia.now.sh/badge?p=decode-and-encode-binary-text)](https://packagephobia.now.sh/result?p=decode-and-encode-binary-text)
 ------
@@ -47,7 +47,7 @@ console.log(test.auto("01101111 01101011"))
 ## Other Examples
 -----
 ### Making spaces between every letter in binary
-##### ( only in encoding )
+##### ( only in encoding & encoding in auto detect )
 ```js
 const test = require("decode-and-encode-binary-text")
 console.log(test.encode("ay", true))
@@ -55,4 +55,4 @@ console.log(test.encode("ay", true))
 // outputs "01100001 01111001"
 ```
 
- > if you need help open new issue in github repository
+ > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
