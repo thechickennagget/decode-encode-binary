@@ -22,7 +22,7 @@ module.exports = {
 				return toBinary(binary).toString();
 			} catch (err) {
 				if(err.message === "Cannot read property 'join' of null"){
-				return throw new Error("Text to decode cannot be empty string");}
+				throw new Error("Text to decode cannot be empty string");}
 				throw new Error(err.stack);
 			}
 		}
@@ -34,7 +34,7 @@ module.exports = {
 			throw new Error('Text cannot be empty string');
 		}
 			if (typeof text === "number") {
-			throw new Error("Text to encode must be string instead of the number, for example use encode("4") instead of the encode(4)");
+			throw new Error("Text to encode must be string instead of the number, for example use encode('4') instead of the encode(4)");
 		}
 
 			try{ 
@@ -82,7 +82,7 @@ throw new Error("please add ' ' tags to the binary numbers, for example: test.de
 				return toBinary(detect).toString();
 			} catch (err) {
 				if(err.message === "Cannot read property 'join' of null"){
-				return throw new Error("Text to decode cannot be empty string");}
+				throw new Error("Text to decode cannot be empty string");}
 				throw new Error(err.stack);
 			}
 		} else {
