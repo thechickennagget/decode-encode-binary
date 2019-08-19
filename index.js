@@ -46,7 +46,7 @@ module.exports = {
       }
 	  return toText(text).toString();
 	}catch (err){
-	throw new Error(`${err.stack}`);
+	throw new Error(`Error ${err.stack}`);
 	   }
 	},
 	version: function () {
