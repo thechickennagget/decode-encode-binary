@@ -4,7 +4,6 @@
 
 [![Build Status](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text)
 [![install size](https://packagephobia.now.sh/badge?p=decode-and-encode-binary-text)](https://packagephobia.now.sh/result?p=decode-and-encode-binary-text)
-![David](https://img.shields.io/david/ChickenNaggetGithub/encode-decode-binary-text)&nbsp;
 ------
 ## Installation
 ##### using npm:
