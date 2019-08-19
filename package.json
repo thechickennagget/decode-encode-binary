@@ -23,7 +23,8 @@
     "decode binary",
     "encode binary",
     "encode decode binary",
-    "binary to text"
+    "binary to text",
+    "text to binary"
   ],
-  "author": ""
+  "author": "chickennagget"
 }
