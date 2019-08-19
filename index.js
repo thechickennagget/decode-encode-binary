@@ -21,6 +21,8 @@ module.exports = {
 				}
 				return toBinary(binary).toString();
 			} catch (err) {
+				if(err.message === "Cannot read property 'join' of null"){
+				return throw new Error("Text to decode cannot be empty string");}
 				throw new Error(err.stack);
 			}
 		}
