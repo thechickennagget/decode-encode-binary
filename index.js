@@ -33,7 +33,7 @@ module.exports = {
 		} else if (text === ' ') {
 			throw new Error('Text cannot be empty string');
 		}
-			if (typeof binary === "number") {
+			if (typeof text === "number") {
 			throw new Error("Text to encode must be string instead of the number, for example use encode("4") instead of the encode(4)");
 		}
 
@@ -65,7 +65,10 @@ module.exports = {
 	auto: function (detect) {	if (!detect) {
 if (!detect) { throw new Error('No Text to decode / encode was provided');
 } else if (detect === ' ') { throw new Error('Text cannot be empty string'); } }
-
+				 
+if (typeof detect === "number") {
+throw new Error("please add ' ' tags to the binary numbers, for example: test.decode('000101101') instead of the: test.decode(000101101)");
+}
 		if (/^[01][01\s]*[01]$/.test(detect)) {
 
 			try {
@@ -78,6 +81,8 @@ if (!detect) { throw new Error('No Text to decode / encode was provided');
 				}
 				return toBinary(detect).toString();
 			} catch (err) {
+				if(err.message === "Cannot read property 'join' of null"){
+				return throw new Error("Text to decode cannot be empty string");}
 				throw new Error(err.stack);
 			}
 		} else {
@@ -96,6 +101,7 @@ if (!detect) { throw new Error('No Text to decode / encode was provided');
 						return !1 === spaceSeparatedOctets ? str : `${str} `;
 					});
 				}
+		
 				return toText(detect).toString();
 			} catch (err) {
 				throw new Error(err.stack);
