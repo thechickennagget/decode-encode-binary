@@ -16,7 +16,6 @@ $ yarn add decode-and-encode-binary-text
 ```
 #####
  -----
-# Examples
 ### An example decoding text from binary numbers
 ------
 ```js
@@ -36,10 +35,7 @@ console.log(test.encode("Hello world!"))
  ```
 
 ### Auto Detecting
-##### Automatically detect if you want to encode or decode
 ------
-##### Warning!! this is experimental feature!!
-
 ```js
 const test = require("decode-and-encode-binary-text")
 
