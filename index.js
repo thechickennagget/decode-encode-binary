@@ -1,5 +1,5 @@
 "use strict";
-// test
+require("common.js");
 module.exports = {
 		/**
  * Decodes a binary code to text
@@ -11,7 +11,6 @@ module.exports = {
  * // outputs "Hello"
  */
 	decode: function (binary) {
-		
       if (!binary) {
         throw new Error('No Text to decode was provided');
       } else if (binary === ' ') {
@@ -20,12 +19,12 @@ module.exports = {
 		if (typeof binary === "number") {
 			throw new Error("please add ' ' tags to the binary numbers, for example: test.decode('000101101') instead of the: test.decode(000101101)");
 		}
-		if (typeof binary === "string") {
-			try {
-				function toBinary(tobin) {
-					tobin = tobin.replace(/\s+/g, '');
-					tobin = tobin.match(/.{1,8}/g).join(' ');
-					return tobin.split(" ").map(function (elem) {
+
+try { 
+function toBinary(tobin){
+tobin = tobin.replace(/\s+/g,'');
+tobin = tobin.match(/.{1,8}/g).join(' ');
+return tobin.split(" ").map(function (elem) {
 						return String.fromCharCode(parseInt(elem, 2));
 					}).join("");
 				}
@@ -35,7 +34,6 @@ module.exports = {
 				throw new Error("Text to decode cannot be empty string");}
 				throw new Error(err.stack);
 			}
-		}
 	},
 	
 /**
@@ -62,12 +60,11 @@ module.exports = {
 			throw new Error("Text to encode must be string instead of the number, for example use encode('4') instead of the encode(4)");
 		}
 
-			try{ 
-			 function toText(str,spaceSeparatedOctets) {
+try{
+	function toText(str,spaceSeparatedOctets) {
 				function zeroPad(num) {
 					return '00000000'.slice(String(num).length) + num;
-				}
-				return str.replace(/[\s\S]/g, (str) => {
+				}return str.replace(/[\s\S]/g,(str) => {
           str = zeroPad(str.charCodeAt().toString(2));
           if(spaces === true){
           return !1 === spaceSeparatedOctets ? str : `${str} `;
@@ -75,10 +72,9 @@ module.exports = {
           return !1 === spaceSeparatedOctets ? str : `${str}`;}
           });
       }
-	  return toText(text).toString();
+return toText(text).toString();
 	}catch (err){
-	throw new Error(`Error ${err.stack}`);
-	   }
+	throw new Error(`Error ${err.stack}`);}
 	},
 	
 /**
@@ -109,8 +105,7 @@ module.exports = {
  */
 	auto: function (detect) {	if (!detect) {
 if (!detect) { throw new Error('No Text to decode / encode was provided');
-} else if (detect === ' ') { throw new Error('Text cannot be empty string'); } }
-				 
+} else if (detect === ' ') { throw new Error('Text cannot be empty string'); } }			 
 if (typeof detect === "number") {
 throw new Error("please add ' ' tags to the binary numbers, for example: test.decode('000101101') instead of the: test.decode(000101101)");
 }
@@ -135,23 +130,26 @@ throw new Error("please add ' ' tags to the binary numbers, for example: test.de
 				throw new Error('No Text to encode was provided');
 			} else if (detect === ' ') {
 				throw new Error('Text cannot be empty string');
-			}
-			try {
-				function toText(str,spaceSeparatedOctets) {
+		
+				}
+				try{
+function toText(str,spaceSeparatedOctets) {
+	
+
 					function zeroPad(num) {
-						return '00000000'.slice(String(num).length) + num;
-	                }
+						return '00000000'.slice(String(num).length) + num;}
 					return str.replace(/[\s\S]/g, (str) => {
 						str = zeroPad(str.charCodeAt().toString(2));
 						return !1 === spaceSeparatedOctets ? str : `${str} `;
-					});
-				}
-		
-				return toText(detect).toString();
-			} catch (err) {
+					})	}	
+	
+return toText(detect).toString();
+			}catch (err) {
 				throw new Error(err.stack);
 			}
+		
 		}
-	}
+}}
+
 	
-};
+
