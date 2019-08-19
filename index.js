@@ -1,4 +1,5 @@
 "use strict";
+// test
 module.exports = {
 		/**
  * Decodes a binary code to text
