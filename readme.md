@@ -10,6 +10,10 @@
 ```
 $ npm install decode-and-encode-binary-text
 ```
+##### using yarn:
+```
+$ yarn add decode-and-encode-binary-text
+```
 #####
  -----
 # Examples
