@@ -32,7 +32,7 @@ console.log(test.encode("Hello world!"))
 // outputs "01101000011001010110110001101100011011110111011101101111011100100110110001100100"
  ```
 
-### Auto Detecting
+### Example using Auto Detecting function
 ------
 ```js
 const test = require("decode-and-encode-binary-text")
@@ -44,11 +44,10 @@ console.log(test.auto("01101111 01101011"))
 // outputs "ok"
 
 ```
-
-# Other Examples
+## Other Examples
 -----
-## Making spaces between every letter in binary
-#### ( only in encoding )
+### Making spaces between every letter in binary
+##### ( only in encoding )
 ```js
 const test = require("decode-and-encode-binary-text")
 console.log(test.encode("ay", true))
