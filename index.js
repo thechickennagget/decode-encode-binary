@@ -1,15 +1,16 @@
 "use strict";
 module.exports = {
 	decode: function (binary) {
-		if (typeof binary === "number") {
-			throw new Error("please add ' ' tags to the binary numbers, for example: test.decode('000101101') instead of the: test.decode(000101101)");
-		}
-		if (typeof binary === "string") {
-			if (!binary) {
+		
+      if (!binary) {
         throw new Error('No Text to decode was provided');
       } else if (binary === ' ') {
         throw new Error('Text cannot be empty string');
       }
+		if (typeof binary === "number") {
+			throw new Error("please add ' ' tags to the binary numbers, for example: test.decode('000101101') instead of the: test.decode(000101101)");
+		}
+		if (typeof binary === "string") {
 			try {
 				function toBinary(tobin) {
 					tobin = tobin.replace(/\s+/g, '');
