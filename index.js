@@ -33,6 +33,9 @@ module.exports = {
 		} else if (text === ' ') {
 			throw new Error('Text cannot be empty string');
 		}
+			if (typeof binary === "number") {
+			throw new Error("Text to encode must be string instead of the number, for example use encode("4") instead of the encode(4)");
+		}
 
 			try{ 
 			 function toText(str,spaceSeparatedOctets) {
