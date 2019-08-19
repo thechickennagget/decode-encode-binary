@@ -12,7 +12,7 @@
     "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text.git"
   },
   "dependencies": 
-  "common-js": "^0.3.8",
+  "common-js": "^0.3.8"
   },
   "devDependencies": {
     "eslint": "^6.2.0"
