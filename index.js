@@ -1,5 +1,4 @@
 "use strict";
-require("common.js");
 module.exports = {
 		/**
  * Decodes a binary code to text
