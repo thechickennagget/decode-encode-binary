@@ -1,6 +1,11 @@
- language: node_js
- - npm install
+language: node_js
+
+node_js:
+  - stable
+
+install:
+  - npm install
 
 script:
-  - npm testing/test 
   - node index
+  - nodew testing/testing.js
