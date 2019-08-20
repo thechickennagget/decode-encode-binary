@@ -1,6 +1,6 @@
 {
   "name": "decode-and-encode-binary-text",
-  "version": "0.1.13",
+  "version": "0.1.15",
   "description": "Module to encode, decode and auto-detect binary numbers",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text.git"
   },
   "dependencies": {
-  "common-js": "^0.3.8"
+    "common-js": "^0.3.8"
   },
   "devDependencies": {
     "eslint": "^6.2.0"
