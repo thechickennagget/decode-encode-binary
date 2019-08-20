@@ -18,11 +18,11 @@
  ~ remove //'s when testing function ~
 */
 
-function decodeTest(text){console.log(require("./index.js").decode(text))}
-function encodeTest(text){console.log(require("./index.js").encode(text))}
-function autoTest(text){console.log(require("./index.js").auto(text))}
+function decodeTest(text){console.log(require("../index.js").decode(text))}
+function encodeTest(text){console.log(require("../index.js").encode(text))}
+function autoTest(text){console.log(require("../index.js").auto(text))}
     
-   //decodeTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")
-   //encodeTest("hello world")
-   //autoTest("hello world")
-   //autoTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")
+   decodeTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")
+   encodeTest("hello world")
+   autoTest("hello world")
+   autoTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")
