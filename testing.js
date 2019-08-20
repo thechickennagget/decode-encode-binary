@@ -17,6 +17,7 @@
 
  ~ remove //'s when testing function ~
 */
+
 function decodeTest(text){console.log(require("./index.js").decode(text))}
 function encodeTest(text){console.log(require("./index.js").encode(text))}
 function autoTest(text){console.log(require("./index.js").auto(text))}
