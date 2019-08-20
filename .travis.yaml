@@ -1,0 +1,6 @@
+ language: node_js
+ - npm install
+
+script:
+  - npm testing/test 
+  - node index
