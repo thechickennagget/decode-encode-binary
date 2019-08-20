@@ -53,6 +53,12 @@ const test = require("decode-and-encode-binary-text")
 console.log(test.encode("ay", true))
 
 // outputs "01100001 01111001"
+
+
+/*  Auto detection support */
+
+console.log(test.auto("ay", true))
+// outputs "01100001 01111001" too
 ```
 
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
