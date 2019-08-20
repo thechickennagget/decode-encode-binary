@@ -8,4 +8,4 @@ install:
 
 script:
   - node index
-  - nodew test/testing.js
+  - node test/testing.js
