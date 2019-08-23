@@ -8,11 +8,11 @@
 
 ------
 ## Installation
-##### using npm:
+##### using [npm:](https://www.npmjs.com/package/decode-and-encode-binary-text)
 ```
 $ npm install decode-and-encode-binary-text
 ```
-##### using yarn:
+##### using [yarn:](https://yarnpkg.com/en/package/decode-and-encode-binary-text)
 ```
 $ yarn add decode-and-encode-binary-text
 ```
