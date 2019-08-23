@@ -1,6 +1,6 @@
 {
   "name": "decode-and-encode-binary-text",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Module to encode, decode and auto-detect binary numbers",
   "main": "index.js",
   "scripts": {
