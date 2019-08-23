@@ -3,7 +3,9 @@
 [![Build Status](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text)
 [![install size](https://packagephobia.now.sh/badge?p=decode-and-encode-binary-text)](https://packagephobia.now.sh/result?p=decode-and-encode-binary-text)
 [![Total Downloads](https://badgen.net/npm/dt/decode-and-encode-binary-text)](https://www.npmjs.com/package/decode-and-encode-binary-text)
+![GitHub last commit](https://img.shields.io/github/last-commit/ChickenNaggetGithub/encode-decode-binary-text?logo=GitHub)
 [![GitHub stars](https://img.shields.io/github/stars/chickennaggetgithub/encode-decode-binary-text?style=flat)](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/)
+
 ------
 ## Installation
 ##### using npm:
@@ -46,7 +48,8 @@ console.log(test.auto("01101111 01101011"))
 // outputs "ok"
 
 ```
-## Other Examples
+
+### Other Examples
 -----
 ### Making spaces between every letter in binary
 ##### ( only in encoding & encoding in auto detect )
@@ -63,4 +66,6 @@ console.log(test.auto("ay", true))
 // outputs "01100001 01111001" too
 ```
 
+------
+# Other examples
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
