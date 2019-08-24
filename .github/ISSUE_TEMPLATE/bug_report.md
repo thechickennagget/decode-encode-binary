@@ -1,17 +1,9 @@
----
-name: Bug report
-about: BUG REPORT TEMPLATE
-title: Bug report
-labels: bug
-assignees: ''
-
----
-
 **Describe the bug**
+
 A clear and concise description of what the bug is.
 
 **How To Reproduce The Bug**
-Steps to reproduce the behavior:
+Steps to reproduce the bug:
 1. 
 2. 
 3.
