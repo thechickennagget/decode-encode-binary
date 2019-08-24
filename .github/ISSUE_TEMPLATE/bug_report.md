@@ -1,3 +1,11 @@
+---
+name: Bug Report
+about: Bug report template
+title: Bug Report
+labels: bug
+assignees: ''
+---
+
 ### Describe the bug
 A clear and concise description of what the bug is.
 
