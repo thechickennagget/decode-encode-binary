@@ -8,10 +8,10 @@ assignees: ''
 ---
 
 ## Feature Function
-### Describe what should that feature do
+#### Describe what should that feature do
 -------
 ## Additional content
-### Any additional information or something  
+#### Any additional information or something  
 -------
 ## Information
-### Version: [e.g 0.2.3]
+#### Version: [e.g 0.2.3]
