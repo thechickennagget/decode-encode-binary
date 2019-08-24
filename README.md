@@ -26,7 +26,8 @@ console.log(test.decode("0110100001100101011011000110110001101111001000000111011
 
 // outputs "hello world"
 ```
-
+#### you can use ot with spaces or without spaces, they work same
+------
 ### Example encoding text to binary numbers
 ------
 ```js
@@ -67,5 +68,4 @@ console.log(test.auto("ay", true))
 ```
 
 ------
-# Other examples
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
