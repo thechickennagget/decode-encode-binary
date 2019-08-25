@@ -24,7 +24,7 @@ function encodeTest(text){console.log(require("../index.js").encode(text))}
 function autoTest(text){console.log(require("../index.js").auto(text))}    
 
    console.log(colors.red("Decode test"))
-   function decodeResult: decodeTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")
+   function decodeResult(){ return decodeTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
    if(decodeResult === "hello world"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
@@ -33,7 +33,7 @@ function autoTest(text){console.log(require("../index.js").auto(text))}
     console.log(colors.yellow(`------------`))
    }
    console.log(colors.red("Encode test"))
-   function encodeResult: encodeTest("hello world")
+  function encodeResult(){ return  encodeTest("hello world") }
    if(encodeResult === `0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100`){
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
