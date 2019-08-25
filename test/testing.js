@@ -57,11 +57,6 @@ const colors = require("chalk");
    console.log(colors.red("                              "))
    console.log(colors.green("-- Running Advanced Tests.. --"))
    console.log(colors.red("                              "))
-
-   
-
-   console.log(colors.green("// Category Auto detecting //"))
-   console.log(colors.red("                              "))
    console.log(colors.red("-- Auto Decoding with spaces --"))
    function AutoEwSResult(){ return require("../index.js").auto("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
    if(AutoEwSResult() === "hello world"){
