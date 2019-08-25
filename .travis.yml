@@ -15,6 +15,7 @@ install:
   - npm install --only-dev
 
 script:
-  - node index
+  - node index.js
   - node test/tests.js
+  - node test/functions.js
   - eslint ./
