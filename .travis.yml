@@ -3,7 +3,7 @@ language: node_js
 os:
 - windows
 - linux
-- mac
+- osx
 
 node_js:
   - 12
