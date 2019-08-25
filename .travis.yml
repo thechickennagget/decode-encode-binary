@@ -9,3 +9,27 @@ install:
 script:
   - node index
   - node test/testing.js
+
+language: node_js
+
+node_js:
+  - stable
+
+install:
+  - npm install
+  - npm install --only-dev
+
+script:
+  - node index
+  - node test/testing.js
+
+after_script:
+node_js: - unstable
+
+install:
+  - npm install
+  - npm install --only-dev
+
+script:
+  - node index
+  - node test/testing.js
