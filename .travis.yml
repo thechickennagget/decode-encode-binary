@@ -1,10 +1,12 @@
 language: node_js
 
+os:
+- windows
+
 node_js:
   - 12
   - 10
   - 8 
-  - 4
 
 install:
   - npm install
