@@ -23,13 +23,8 @@ script:
   - node index
   - node test/testing.js
 
-after_script:
-node_js: - unstable
-
-install:
-  - npm install
-  - npm install --only-dev
-
+after_script:node_js: - unstable 
+install: - npm install - npm install --only-dev
 script:
   - node index
   - node test/testing.js
