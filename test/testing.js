@@ -8,24 +8,17 @@
     \_/ \_/     /__(  )__\  )_) \__/   )_) \__/  (_/    \__/     /_____( (_/    \__/       \____/   
                                                                                                     
 -- RUN "npm i --dev-only" BEFORE STARTING THIS --
-
 - This is test file, its used for testing functions after some Function Update
 - This is supposed to be used by developers but you can use it too if you wan't
-
 - decodeTest - tests decode function with provided text
 - encodeTest - tests encode function with provided text
 - autoTest - tests auto-detect function with provided text
-
  ~ remove //'s when testing function ~
 */
 const colors = require("chalk");
-function decodeTest(text){console.log(require("../index.js").decode(text))}
-function encodeTest(text){console.log(require("../index.js").encode(text))}
-function autoTest(text){console.log(require("../index.js").auto(text))}    
-
    console.log(colors.red("Decode test"))
-   function decodeResult(){ return decodeTest("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
-   if(decodeResult === "hello world"){ 
+   function decodeResult(){ return require("../index.js").decode("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
+   if(decodeResult() === "hello world"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
    }else{
@@ -33,8 +26,8 @@ function autoTest(text){console.log(require("../index.js").auto(text))}
     console.log(colors.yellow(`------------`))
    }
    console.log(colors.red("Encode test"))
-  function encodeResult(){ return  encodeTest("hello world") }
-   if(encodeResult === `0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100`){
+  function encodeResult(){ return  require("../index.js").encode("hello world") }
+    if(encodeResult() === "0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
    }else{
