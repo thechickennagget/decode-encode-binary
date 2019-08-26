@@ -9,8 +9,8 @@ node_js:
   - 12
   - 10
   - 8 
-  - 1
-
+  - unstable
+  
 install:
   - npm install -g
   - npm install --only-dev
