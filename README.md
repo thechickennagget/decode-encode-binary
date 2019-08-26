@@ -23,8 +23,8 @@ $ yarn add decode-and-encode-binary-text
 $ encode-decode encode hello
 $ 001000000110100001100101011011000110110001101111
 ```
-> ##### This supports only encode and decode!
-> #####  it doesnt support auto function yet
+> This supports only encode and decode!
+> it doesnt support auto function yet
  -----
 ### An example decoding text from binary numbers
 ------
