@@ -1,11 +1,12 @@
 {
   "name": "decode-and-encode-binary-text",
-  "version": "0.2.4",
+  "version": "0.3.8",
   "description": "Module to encode, decode and auto-detect binary numbers",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "lintg": "eslint ./"
+    "start": "node src/index.js",
+    "lint": "eslint ./",
+    "tests": "node test/tests.js && node test/functions.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,10 @@
     "common-js": "^0.3.8"
   },
   "devDependencies": {
-    "eslint": "^6.2.0",
-    "chalk": "^2.4.2"
+    "eslint": "^6.2.0"
+  },
+  "bin": {
+    "encode-decode": "src/cli-loader.js"
   },
   "license": "MIT",
   "bugs": {

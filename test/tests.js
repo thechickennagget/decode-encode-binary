@@ -15,9 +15,10 @@
 - autoTest - tests auto-detect function with provided text
  ~ remove //'s when testing function ~
 */
+"use strict";
 const colors = require("chalk");
    console.log(colors.red("-- Decode test --"))
-   function decodeResult(){ return require("../index.js").decode("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
+   function decodeResult(){ return require(".././src/index.js").decode("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
    if(decodeResult() === "hello world"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
@@ -26,7 +27,7 @@ const colors = require("chalk");
     console.log(colors.yellow(`------------`))
    }
    console.log(colors.red("-- Encode test --"))
-  function encodeResult(){ return  require("../index.js").encode("hello world") }
+  function encodeResult(){ return  require(".././src/index.js").encode("hello world") }
     if(encodeResult() === "0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
@@ -35,7 +36,7 @@ const colors = require("chalk");
     console.log(colors.yellow(`------------`))
    }
    console.log(colors.red("-- Auto Encoding test --"))
-   function autoEResult(){ return  require("../index.js").auto("hello world") }
+   function autoEResult(){ return  require(".././src/index.js").auto("hello world") }
    if(autoEResult() === "0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
@@ -45,7 +46,7 @@ const colors = require("chalk");
    }
 
    console.log(colors.red("-- Auto Decoding test --"))
-   function autoDResult(){ return  require("../index.js").auto("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100") }
+   function autoDResult(){ return  require(".././src/index.js").auto("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100") }
    if(autoDResult() === "hello world"){ 
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
@@ -58,7 +59,7 @@ const colors = require("chalk");
    console.log(colors.green("-- Running Advanced Tests.. --"))
    console.log(colors.red("                              "))
    console.log(colors.red("-- Auto Decoding with spaces --"))
-   function AutoEwSResult(){ return require("../index.js").auto("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
+   function AutoEwSResult(){ return require(".././src/index.js").auto("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
    if(AutoEwSResult() === "hello world"){
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
@@ -68,7 +69,7 @@ const colors = require("chalk");
    }
 
    console.log(colors.red("-- Auto Decoding with spaces after every number (extreme) --"))
- function AutoEwSExtremeSResult(){ return require("../index.js").auto("0 1 1 0 1 0 0 0 0 1 1 0 0 1 0 1 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 1 0 1 10 1 1 1 1 0 1 1 1 0 0 1 0 0 1 10 1 1 0 0 0 1 1 0 0 1 0 0")}
+ function AutoEwSExtremeSResult(){ return require(".././src/index.js").auto("0 1 1 0 1 0 0 0 0 1 1 0 0 1 0 1 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 1 0 1 10 1 1 1 1 0 1 1 1 0 0 1 0 0 1 10 1 1 0 0 0 1 1 0 0 1 0 0")}
  if(AutoEwSExtremeSResult() === "hello world"){  
     console.log(colors.green(`[ SUCESS ]`)) 
     console.log(colors.yellow(`------------`))
