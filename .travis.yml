@@ -9,6 +9,7 @@ node_js:
   - 12
   - 10
   - 8 
+  - 1
 
 install:
   - npm install -g
