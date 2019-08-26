@@ -1,5 +1,5 @@
 # Decode and encode text to binary
-### Node module to encode, decode and auto-detect binary numbers
+### Node module and CLI to encode, decode and auto-detect binary numbers
 [![Build Status](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/ChickenNaggetGitHub/encode-decode-binary-text)
 [![install size](https://packagephobia.now.sh/badge?p=decode-and-encode-binary-text)](https://packagephobia.now.sh/result?p=decode-and-encode-binary-text)
 [![Total Downloads](https://badgen.net/npm/dt/decode-and-encode-binary-text)](https://www.npmjs.com/package/decode-and-encode-binary-text)
@@ -16,7 +16,15 @@ $ npm install decode-and-encode-binary-text
 ```
 $ yarn add decode-and-encode-binary-text
 ```
-#####
+------
+### This module also works in console
+#### For Example:
+```
+$ encode-decode encode hello
+$ 001000000110100001100101011011000110110001101111
+```
+> ##### This supports only encode and decode!
+> #####  it doesnt support auto function yet
  -----
 ### An example decoding text from binary numbers
 ------
