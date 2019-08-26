@@ -1,15 +1,10 @@
 language: node_js
 
 os:
-- windows
 - linux
-- osx
 
 node_js:
-  - 12
-  - 10
-  - 8 
-  - 1.0.0
+ - 2.0.0
    
 install:
   - npm install -g
