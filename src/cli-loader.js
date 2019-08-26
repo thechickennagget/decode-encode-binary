@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 'use strict';
 var argv = process.argv.slice(2).toString();
 argv = argv.replace(",", " ")
