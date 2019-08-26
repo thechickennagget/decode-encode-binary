@@ -16,7 +16,8 @@
     "common-js": "^0.3.8"
   },
   "devDependencies": {
-    "eslint": "^6.2.0"
+    "eslint": "^6.2.0",
+    "chalk": "latest"
   },
   "bin": {
     "encode-decode": "src/cli-loader.js"
