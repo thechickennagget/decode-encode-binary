@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 'use strict';
+if (Number(process.version.slice(1).split(".")[0]) < 9) throw new Error("Node 9.0.0 or higher is required to use this");
 var argv = process.argv.slice(2).toString();
 argv = argv.replace(",", " ")
 
