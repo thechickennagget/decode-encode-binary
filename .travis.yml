@@ -7,7 +7,6 @@ os:
 node_js:
  - 12
  - 10
- - 3.0.0
  
 install:
   - npm install -g
