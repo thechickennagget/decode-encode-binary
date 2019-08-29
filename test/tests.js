@@ -8,6 +8,7 @@
     \_/ \_/     /__(  )__\  )_) \__/   )_) \__/  (_/    \__/     /_____( (_/    \__/       \____/   
                                                                                                     
 -- RUN "npm i --dev-only" BEFORE STARTING THIS --
+
 - This is test file, its used for testing functions after some Function Update
 - This is supposed to be used by developers but you can use it too if you wan't
 - decodeTest - tests decode function with provided text
