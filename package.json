@@ -1,6 +1,6 @@
 {
   "name": "decode-and-encode-binary-text",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Module and CLI to encode, decode and auto-detect binary numbers",
   "main": "src/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text.git"
+    "url": "https://github.com/TheChickenNagget/encode-decode-binary-text.git"
   },
   "dependencies": {
     "common-js": "^0.3.8"
@@ -28,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues"
+    "url": "https://github.com/TheChickenNagget/encode-decode-binary-text/issues"
   },
-  "homepage": "https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/blob/master/README.md",
+  "homepage": "https://github.com/TheChickenNagget/encode-decode-binary-text/blob/master/README.md",
   "keywords": [
     "decode",
     "encode",
