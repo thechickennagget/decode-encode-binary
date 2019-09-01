@@ -78,7 +78,7 @@ console.log(test.auto("ay", true))
 
 # Browser Support
 ##### You can use this module in browser too..
-##### So First you need to **__[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__** and put it to your folder, and then put this to your HTML file
+##### First you need to **__[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__** and put it to your folder, and then put this to your HTML file
 ```html
 <script src="browser_lastest.js"></script>
 ```
