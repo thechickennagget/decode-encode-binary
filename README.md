@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/encode-decode-binary-text?style=flat)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 
 ------
-## Installation
+# Installation
 ##### using [npm:](https://www.npmjs.com/package/decode-and-encode-binary-text)
 ```
 $ npm install decode-and-encode-binary-text
@@ -17,7 +17,7 @@ $ npm install decode-and-encode-binary-text
 $ yarn add decode-and-encode-binary-text
 ```
 ------
-## Using in Terminal:
+# Using in Terminal:
 #### you can use this by using "encode-decode" or "decode-encode" prefix, here's example:
 ```
 $ encode-decode encode ay
@@ -25,7 +25,7 @@ $ 001000000110000101111001
 ```
 ##### Warning.. this will support first two basic functions as we cant detect if provided text is number or string because it is in terminal
 ------
-## Examples
+# Examples
 ------
 ### An example decoding text from binary numbers
 ------
