@@ -23,7 +23,7 @@ $ yarn add decode-and-encode-binary-text
 $ encode-decode encode ay
 $ 001000000110000101111001
 ```
-#### Warning.. this will support first two basic functions as we cant detect if provided text is number or string because it is in terminal
+##### Warning.. this will support first two basic functions as we cant detect if provided text is number or string because it is in terminal
 ------
 ### An example decoding text from binary numbers
 ------
