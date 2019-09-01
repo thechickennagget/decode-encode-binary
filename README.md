@@ -17,15 +17,14 @@ $ npm install decode-and-encode-binary-text
 $ yarn add decode-and-encode-binary-text
 ```
 ------
-### This module also works in console
-#### For Example:
+## Using in Terminal:
+#### you can use this by using "encode-decode" or "decode-encode" prefix, here's example:
 ```
-$ encode-decode encode hello
-$ 001000000110100001100101011011000110110001101111
+$ encode-decode encode ay
+$ 001000000110000101111001
 ```
-> This supports only encode and decode!
-> it doesnt support auto function yet
- -----
+#### Warning.. this will support first two basic functions as we cant detect if provided text is number or string because it is in terminal
+------
 ### An example decoding text from binary numbers
 ------
 ```js
