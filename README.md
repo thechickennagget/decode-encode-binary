@@ -26,7 +26,6 @@ $ 001000000110000101111001
 ##### Warning.. this will support first two basic functions as we cant detect if provided text is number or string because it is in terminal
 ------
 # Examples
-------
 ### An example decoding text from binary numbers
 ------
 ```js
@@ -37,8 +36,8 @@ console.log(test.decode("0110100001100101011011000110110001101111001000000111011
 ```
 #### you can use ot with spaces or without spaces, they work same
 ------
+
 ### Example encoding text to binary numbers
-------
 ```js
 const test = require("decode-and-encode-binary-text")
 console.log(test.encode("Hello world!"))
@@ -47,7 +46,6 @@ console.log(test.encode("Hello world!"))
  ```
 
 ### Example using Auto Detecting function
-------
 ```js
 const test = require("decode-and-encode-binary-text")
 
