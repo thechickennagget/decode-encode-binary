@@ -76,5 +76,12 @@ console.log(test.auto("ay", true))
 // outputs "01100001 01111001" too
 ```
 
+# Browser Support
+##### You can use this module in browser too..
+##### So First you need to **__[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__** and put it to your folder, and then put this to your epic HTML file
+```html
+<script src="browser_lastest.js"></script>
+```
+##### Now you can use encode() , decode() and auto() in browser in next <script></script> Tag
 ------
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
