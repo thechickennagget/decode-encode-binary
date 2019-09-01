@@ -25,6 +25,8 @@ $ 001000000110000101111001
 ```
 ##### Warning.. this will support first two basic functions as we cant detect if provided text is number or string because it is in terminal
 ------
+## Examples
+------
 ### An example decoding text from binary numbers
 ------
 ```js
