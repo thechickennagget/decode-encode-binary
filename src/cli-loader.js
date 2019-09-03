@@ -9,9 +9,6 @@ if(!argv){
   Commands
   - encode ~ Encode provided string to binary
   - decode ~ Decode provided string from binary
-  - auto ~ Automatically detects if you wan't decode or encode
-
-  ~~ Example usage at npm package information ~~
  `)
 }
 try{
