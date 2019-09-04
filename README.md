@@ -5,6 +5,8 @@
 [![Total Downloads](https://badgen.net/npm/dt/decode-and-encode-binary-text)](https://www.npmjs.com/package/decode-and-encode-binary-text)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ChickenNaggetGithub/encode-decode-binary-text?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/encode-decode-binary-text?style=flat)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
+[![Discord](https://discordapp.com/api/guilds/610476577632944159/embed.png)](https://discord.gg/CFw8BMJ)
+
 ------
 ## Installation
 ##### using [npm:](https://www.npmjs.com/package/decode-and-encode-binary-text)
