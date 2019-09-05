@@ -17,6 +17,9 @@
  ~ remove //'s when testing function ~
 */
 "use strict";
+require("child_process").execSync("npm install --only-dev")
+console.log("Loading...")
+
 const colors = require("chalk");
    console.log(colors.red("-- Decode test --"))
    function decodeResult(){ return require(".././src/index.js").decode("01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100")}
@@ -78,4 +81,3 @@ const colors = require("chalk");
     console.log(colors.green(`[ FAIL ]`)) 
     console.log(colors.yellow(`------------`))
    }
-

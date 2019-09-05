@@ -19,12 +19,11 @@ $ yarn add decode-and-encode-binary-text
 ```
 ------
 ## Using in Terminal:
-#### you can use this by using "encode-decode" or "decode-encode" prefix, here's example:
+#### you can use this by using "enc" or "dec" prefix, here's example:
 ```
-$ encode-decode encode ay
+$ enc encode ay
 $ 001000000110000101111001
 ```
-#
 #
 ## Examples
 ### An example decoding text from binary numbers
