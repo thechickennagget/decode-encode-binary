@@ -1,7 +1,7 @@
 # Decode and encode text to binary
 ### Node module and CLI to encode, decode and auto-detect binary numbers
 [![Build Status](https://travis-ci.org/TheChickenNagget/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/TheChickenNagget/encode-decode-binary-text)
-[![install size](https://packagephobia.now.sh/badge?p=decode-and-encode-binary-text)](https://packagephobia.now.sh/result?p=decode-and-encode-binary-text)
+[![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary-text)](https://packagephobia.now.sh/result?p=decode-and-encode-binary-text)
 [![Total Downloads](https://badgen.net/npm/dt/decode-and-encode-binary-text)](https://www.npmjs.com/package/decode-and-encode-binary-text)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ChickenNaggetGithub/encode-decode-binary-text?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/encode-decode-binary-text?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
@@ -9,13 +9,13 @@
 
 ------
 ## Installation
-##### using [npm:](https://www.npmjs.com/package/decode-and-encode-binary-text)
+##### using [npm:](https://www.npmjs.com/package/decode-encode-binary-text)
 ```
-$ npm install decode-and-encode-binary-text
+$ npm install decode-encode-binary-text
 ```
-##### using [yarn:](https://yarnpkg.com/en/package/decode-and-encode-binary-text)
+##### using [yarn:](https://yarnpkg.com/en/package/decode-encode-binary-text)
 ```
-$ yarn add decode-and-encode-binary-text
+$ yarn add decode-encode-binary-text
 ```
 ------
 ## Using in Terminal:
@@ -29,7 +29,7 @@ $ 001000000110000101111001
 ### An example decoding text from binary numbers
 ------
 ```js
-const test = require("decode-and-encode-binary-text")
+const test = require("decode-encode-binary-text")
 console.log(test.decode("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"))
 
 // outputs "hello world"
@@ -39,7 +39,7 @@ console.log(test.decode("0110100001100101011011000110110001101111001000000111011
 
 ### Example encoding text to binary numbers
 ```js
-const test = require("decode-and-encode-binary-text")
+const test = require("decode-encode-binary-text")
 console.log(test.encode("Hello world!"))
 
 // outputs "01101000011001010110110001101100011011110111011101101111011100100110110001100100"
@@ -47,7 +47,7 @@ console.log(test.encode("Hello world!"))
 
 ### Example using Auto Detecting function
 ```js
-const test = require("decode-and-encode-binary-text")
+const test = require("decode-encode-binary-text")
 
 console.log(test.auto("ok"))
 // outputs 0110111101101011
@@ -62,7 +62,7 @@ console.log(test.auto("01101111 01101011"))
 ### Making spaces between every letter in binary
 ##### ( only in encoding & encoding in auto detect )
 ```js
-const test = require("decode-and-encode-binary-text")
+const test = require("decode-encode-binary-text")
 console.log(test.encode("ay", true))
 
 // outputs "01100001 01111001"
