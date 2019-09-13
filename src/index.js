@@ -1,4 +1,5 @@
 "use strict";
+require("v8-compile-cache");
 module.exports = {
 /**
  * Decodes a binary code to text
@@ -57,22 +58,6 @@ version:function(){try{return require("../package.json").version;}catch(e){throw
  * console.log(test.auto("0100100001100101011011000110110001101111"))
  * // outputs "Hello"
  */
-auto: function (d, spcs) {	
-if(!d){throw new Error('No Text to decode / encode was provided');}else if(d===' '){throw new Error('Text cannot be empty string');}			 
-if(typeof d==="number"){throw new Error("text to encode/decode must be string");}	
-if(/^[01][01\s]*[01]$/.test(d)){try{
-function tobin(d){d=d.replace(/\s+/g, '');d=d.match(/.{1,8}/g).join(' ');
-return d.split(" ").map(function(m){return String.fromCharCode(parseInt(m,2));}).join("");} return tobin(d).toString();
-}catch(e){
-if(e.message==="Cannot read property 'join' of null"){
-throw new Error("Text to decode cannot be empty string");}throw new Error(e.stack); 
-}}else{
-if(!d){throw new Error('No Text to encode was provided');}if(d===' '){throw new Error('Text cannot be empty string');}
-if(typeof d==="number"){throw new Error("Text to encode must be string instead of the number, for example use encode('4') instead of the encode(4)");}
-try{function tTxt(s,sso){
-function zeroPad(num){return'00000000'.slice(String(num).length)+num;
-}return s.replace(/[\s\S]/g,(s)=>{s=zeroPad(s.charCodeAt().toString(2));
-if(spcs===true){return!1===sso?sso:`${sso} `;  
-}else{
-return!1===sso?s:`${s}`;}});}return tTxt(d).toString();
-}catch(e){throw new Error(`Error ${e.stack}`);}}}}
+auto:function(d,spcs){
+if(/^[01][01\s]*[01]$/.test(d)){return this.decode(d)}else{if(spcs===true){return this.encode(d,true)}return this.encode(d)}}};
+process.on("ReferenceError",(e)=>{if(e.message==="Cannot find module 'v8-compile-cache'"){require("child_process").execSync("npm i v8-compile-cache");}})
