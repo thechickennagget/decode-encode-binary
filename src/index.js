@@ -33,10 +33,10 @@ if(e.message==="Cannot read property 'join' of null"){throw new Error("Text to d
  */
 encode:function(t, sso){
 if(!t){throw new Error('No Text to encode was provided');} 
-try{function totxt(s,sso){
+try{function totxt(s,ss){
 function zeroPad(n){return '00000000'.slice(String(n).length)+n;
 }return t.replace(/[\s\S]/g,(t)=>{t=zeroPad(t.charCodeAt().toString(2));
-if(sso===true){return!1===sso?t:`${t} `; }else{return!1===sso?t:`${t}`;}});}
+if(sso===true){return!1===ss?t:`${t} `; }else{return!1===ss?t:`${t}`;}});}
 return totxt(t).toString();}catch(e){throw new Error(`Error ${e.stack}`);}},
 /**
  * Checks current version of this dependency
