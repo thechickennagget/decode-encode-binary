@@ -1,9 +1,9 @@
 # Decode and encode text to binary
 ### Node module and CLI to encode, decode and auto-detect binary numbers
 [![Build Status](https://travis-ci.org/TheChickenNagget/encode-decode-binary-text.svg?branch=master)](https://travis-ci.org/TheChickenNagget/encode-decode-binary-text)
-[![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
+[![install s<!--  -->ize](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ChickenNaggetGithub/encode-decode-binary-text?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/TheChickenNagget/encode-decode-binary-text?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/encode-decode-binary-text?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![Discord](https://discordapp.com/api/guilds/610476577632944159/embed.png)](https://discord.gg/CFw8BMJ)
 
@@ -82,4 +82,8 @@ console.log(test.auto("ay", true))
 ```
 ##### Now you can use encode() , decode() and auto() in browser in next <script></script> Tag
 ------
+
+### todo
+##### - show normal error message when using in terminal
+##### - speed up encoding and decoding
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
