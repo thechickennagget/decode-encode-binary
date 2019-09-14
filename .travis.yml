@@ -3,6 +3,7 @@ os:
 - linux
 - windows
 - osx
+- darwin
 
 node_js:
  - 12
