@@ -1,28 +1,88 @@
-# isbinary-num 
-### Simple module to detect if number is binary number
-[![install size](https://packagephobia.now.sh/badge?p=isbinary-num)](https://packagephobia.now.sh/result?p=isbinary-num)
-#
+# Decode and encode text to binary
+### Node module and CLI to encode, decode and auto-detect binary numbers
+[![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/encode-decode-binary-text)
+[![install s<!--  -->ize](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
+[![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
+[![GitHub last commit](https://img.shields.io/github/last-commit/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
+[![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
+[![Discord](https://discordapp.com/api/guilds/610476577632944159/embed.png)](https://discord.gg/CFw8BMJ)
+
 ------
-## Usage
-You can simply use .isBinary("") Function, here's some example
+## Installation
+##### using [npm:](https://www.npmjs.com/package/decode-encode-binary)
+```
+$ npm install decode-encode-binary
+```
+##### using [yarn:](https://yarnpkg.com/en/package/decode-encode-binary)
+```
+$ yarn add decode-encode-binary
+```
+------
+## Using in Terminal:
+#### you can use this by using "enc" or "dec" prefix, here's example:
+```
+$ enc encode ay
+$ 001000000110000101111001
+```
+#
+## Examples
+### An example decoding text from binary numbers
+------
 ```js
-const test = require("isbinary-num")
-test.isBinary("00000010101011001011110f0010110100");
-// outputs: true
+const test = require("decode-encode-binary")
+console.log(test.decode("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"))
 
-test.isBinary("2155665639569985463546587444444445");
-//outputs: false
+// outputs "hello world"
+```
+#### you can use ot with spaces or without spaces, they work same
+------
+
+### Example encoding text to binary numbers
+```js
+const test = require("decode-encode-binary")
+console.log(test.encode("Hello world!"))
+
+// outputs "01101000011001010110110001101100011011110111011101101111011100100110110001100100"
+ ```
+
+### Example using Auto Detecting function
+```js
+const test = require("decode-encode-binary")
+
+console.log(test.auto("ok"))
+// outputs 0110111101101011
+
+console.log(test.auto("01101111 01101011"))  
+// outputs "ok"
+
 ```
 
-## Terminal Usage
-This module can be used in terminal if you wan't it for some reason
-**Prefix is "isbin"**, for example:
-```shell
-$ isbin 0100100001101001
-$ true
+### Other Examples
+-----
+### Making spaces between every letter in binary
+##### ( only in encoding & encoding in auto detect )
+```js
+const test = require("decode-encode-binary")
+console.log(test.encode("ay", true))
+
+// outputs "01100001 01111001"
+
+
+/*  Auto detection support */
+
+console.log(test.auto("ay", true))
+// outputs "01100001 01111001" too
 ```
-And
-```shell
-$ isbin 564684136548blah77741
-$ false
+
+## Browser Support
+##### You can use this module in browser too..
+##### First you need to **__[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__** and put it to your folder, and then put this to your HTML file
+```html
+<script src="browser_lastest.js"></script>
 ```
+##### Now you can use encode() , decode() and auto() in browser in next <script></script> Tag
+------
+
+### todo
+##### - show normal error message when using in terminal
+ > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
