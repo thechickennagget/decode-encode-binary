@@ -25,7 +25,7 @@ $ yarn add decode-encode-binary
 $ enc encode ay
 $ 001000000110000101111001
 ```
-#
+
 ## Examples
 ### An example decoding text from binary numbers
 ------
