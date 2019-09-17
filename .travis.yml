@@ -3,7 +3,6 @@ os:
 - linux
 - windows
 - osx
-- darwin
 
 node_js:
  - 12
@@ -11,6 +10,7 @@ node_js:
  
 install:
   - npm install -g
+  - npm install -g codecov
   - npm install --only-dev
 
 script:
