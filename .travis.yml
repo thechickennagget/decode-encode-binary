@@ -1,21 +1,22 @@
 language: node_js
-
- os:
+os:
 - linux
+- windows
 - osx
-  
+- darwin
+
 node_js:
-- 12
-- 10
+ - 12
+ - 10
  
 install:
-- npm install -g
-- npm install --only-dev
-  
- script:
-- node src/index.js
-- node test/tests.js
-- node test/functions.js
-- eslint ./
-- enc encode Ayy
-- enc decode 00100000010000010111100101111001
+  - npm install -g
+  - npm install --only-dev
+
+script:
+  - node src/index.js
+  - node test/tests.js
+  - node test/functions.js
+  - eslint ./
+  - enc encode Ayy
+  - enc decode 00100000010000010111100101111001
