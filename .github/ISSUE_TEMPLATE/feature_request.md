@@ -14,4 +14,4 @@ assignees: ''
 #### Any additional information or something  
 -------
 ## Information
-#### Version: [e.g 0.2.3]
+#### Version: \[e.g 0.2.3]
