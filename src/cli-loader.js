@@ -9,5 +9,5 @@ if(argv.search("decode")===0){argv=argv.replace('decode','');if(argv === null ||
 if(!argv){console.log(`
                 Commands
 - encode ~ Encode provided string to binary
-- decode ~ Decode provided string from binary`);} 
+- decode ~ Decode provided string from binary`);}
 }catch(e){throw new Error(e);}
