@@ -1,3 +1,4 @@
+---
 name: Feature request
 about: Suggest new feature for this module
 title: Feature request
