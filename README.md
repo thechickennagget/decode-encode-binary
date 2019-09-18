@@ -5,7 +5,6 @@
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/80073762e50e4a989a6c666248af4f6a)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
-[![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![Discord](https://discordapp.com/api/guilds/610476577632944159/embed.png)](https://discord.gg/CFw8BMJ)            
 ![David](https://img.shields.io/david/thechickennagget/decode-encode-binary)
 ![David](https://img.shields.io/david/dev/thechickennagget/decode-encode-binary)
