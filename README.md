@@ -83,7 +83,4 @@ console.log(test.auto("ay", true))
 ```
 ##### Now you can use encode() , decode() and auto() in browser in next <script></script> Tag
 ------
-
-### todo
-##### - show normal error message when using in terminal
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
