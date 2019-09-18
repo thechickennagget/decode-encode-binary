@@ -2,7 +2,6 @@
 ### Node module and CLI to encode, decode and auto-detect binary numbers
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
 [![install s<!--  -->ize](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
-[![codecov](https://codecov.io/gh/TheChickenNagget/decode-encode-binary/branch/master/graph/badge.svg)](https://codecov.io/gh/TheChickenNagget/decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![GitHub stars](https://img.shields.io/github/stars/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
