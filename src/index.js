@@ -60,4 +60,3 @@ version:function(){try{return require("../package.json").version;}catch(e){throw
  */
 auto:function(d,spcs){
 if(/^[01][01\s]*[01]$/.test(d)){return this.decode(d)}else{if(spcs===true){return this.encode(d,true)}return this.encode(d)}}};
-process.on("ReferenceError",(e)=>{if(e.message==="Cannot find module 'v8-compile-cache'"){require("child_process").execSync("npm i v8-compile-cache");}})
