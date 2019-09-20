@@ -20,7 +20,7 @@
     "eslint": "^6.3.0"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "bin": {
     "enc": "src/cli-loader.js",
