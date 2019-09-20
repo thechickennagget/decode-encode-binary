@@ -6,8 +6,10 @@ argv = argv.replace(",", "");
 try{
 if(argv.search("encode")===0){argv=argv.replace('encode','');console.log(require("./index.js").encode(`${argv}`));process.exit(0);}
 if(argv.search("decode")===0){argv=argv.replace('decode','');if(argv === null ||  /^\s*$/.test(argv)){return console.error("> No Text to decode was provided");} console.log(require("./index.js").decode(`${argv}`));process.exit(0);}
-if(!argv){console.log(`
-                Commands
-- encode ~ Encode provided string to binary
-- decode ~ Decode provided string from binary`);}
+if(!argv){
+  //i've added 3 console logs instead of one with `` cause codeacy was saying that its problem
+console.log("                Commands")
+console.log("- encode ~ Encode provided string to binary")
+console.log("- decode ~ Decode provided string from binary");
+}
 }catch(e){throw new Error(e);}
