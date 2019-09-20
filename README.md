@@ -1,7 +1,7 @@
 # Decode and encode text to binary
 ## Node module and CLI to encode, decode and auto-detect binary numbers
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
-[![install s<!--  -->ize](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
+[![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheChickenNagget/decode-encode-binary?logo=GitHub)](https://github.com/TheChickenNagget/encode-decode-binary-text/)
 [![Discord](https://discordapp.com/api/guilds/610476577632944159/embed.png)](https://discord.gg/CFw8BMJ)            
@@ -9,18 +9,18 @@
 ![David](https://img.shields.io/david/dev/thechickennagget/decode-encode-binary)
 ------
 ## Installation
-##### using [npm:](https://www.npmjs.com/package/decode-encode-binary)
-```
+##### using [npm](https://www.npmjs.com/package/decode-encode-binary)
+```shell
 $ npm install decode-encode-binary
 ```
-##### using [yarn:](https://yarnpkg.com/en/package/decode-encode-binary)
-```
+##### using [yarn](https://yarnpkg.com/en/package/decode-encode-binary)
+```shell
 $ yarn add decode-encode-binary
 ```
 ------
-## Using in Terminal:
+## Using in Terminal
 #### you can use this by using "enc" or "dec" prefix, here's example:
-```
+```shell
 $ enc encode ay
 $ 001000000110000101111001
 ```
@@ -58,7 +58,7 @@ console.log(test.auto("01101111 01101011"))
 ```
 
 ### Other Examples
------
+------
 ### Making spaces between every letter in binary
 ##### ( only in encoding & encoding in auto detect )
 ```js
@@ -75,8 +75,8 @@ console.log(test.auto("ay", true))
 ```
 
 ## Browser Support
-##### You can use this module in browser too..
-##### First you need to **__[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__** and put it to your folder, and then put this to your HTML file
+##### You can use this module in browser too
+##### First you need to __[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__ and put it to your folder, and then put this to your HTML file
 ```html
 <script src="browser_lastest.js"></script>
 ```
