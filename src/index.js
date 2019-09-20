@@ -60,4 +60,4 @@ version:function(){try{return require("../package.json").version;}catch(e){throw
  * // outputs "Hello"
  */
 auto:function(d,spcs){
-if(/^[01][01\s]*[01]$/.test(d)){return this.decode(d);}else{if(spcs===true){return this.encode(d,true);}return this.encode(d)}}};
+if(/^[01][01\s]*[01]$/.test(d)){return this.decode(d);}else{if(spcs===true){return this.encode(d,true);}return this.encode(d)}};};
