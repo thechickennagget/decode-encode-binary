@@ -4,8 +4,8 @@ require("v8-compile-cache");
 var argv = process.argv.slice(2).toString();
 argv = argv.replace(",", "");
 try{
-if(argv.search("encode")===0){argv=argv.replace('encode','');console.log(require("./index.js").encode(argv.toString()));process.exit(0);}
-if(argv.search("decode")===0){argv=argv.replace('decode','');if(argv === null ||  /^\s*$/.test(argv)){return console.error("> No Text to decode was provided");} console.log(require("./index.js").decode(argv.toString()));process.exit(0);}
+if(argv.search("encode")===0){argv=argv.replace("encode","");console.log(require("./index.js").encode(argv.toString()));process.exit(0);}
+if(argv.search("decode")===0){argv=argv.replace("decode","");if(argv === null ||  /^\s*$/.test(argv)){return console.error("> No Text to decode was provided");} console.log(require("./index.js").decode(argv.toString()));process.exit(0);}
 if(!argv){
   //i've added 3 console logs instead of one with `` cause codeacy was saying that its problem
 console.log("                Commands");
