@@ -34,6 +34,7 @@ if(e.message==="Cannot read property 'join' of null"){throw new Error("Text to d
  */
 encode:function(t, sso){
 if(!t){throw new Error('No Text to encode was provided');} 
+if(typeof t==="number"){throw new Error("text to encode must be string");}	
 try{function totxt(s,ss){
 function zeroPad(n){return '00000000'.slice(String(n).length)+n;
 }return t.replace(/[\s\S]/g,(t)=>{t=zeroPad(t.charCodeAt().toString(2));
