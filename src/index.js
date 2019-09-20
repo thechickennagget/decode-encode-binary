@@ -11,9 +11,9 @@ module.exports = {
  * // outputs "Hello"
  */
 decode:function(b){
-if(!b ||  /^\s*$/.test(b)){throw new Error('No Text to decode was provided');}
+if(!b ||  /^\s*$/.test(b)){throw new Error("No Text to decode was provided");}
 if(typeof b==="number"){throw new Error("text to decode must be string");}	
-try{function tobin(b){b=b.replace(/\s+/g,'');b=b.match(/.{1,8}/g).join(' ');
+try{function tobin(b){b=b.replace(/\s+/g,"");b=b.match(/.{1,8}/g).join(" ");
 return b.split(" ").map(function(m){return String.fromCharCode(parseInt(m,2));}).join("");}return tobin(b).toString();
 }catch(e){
 if(e.message==="Cannot read property 'join' of null"){throw new Error("Text to decode cannot be empty string");
@@ -33,11 +33,11 @@ if(e.message==="Cannot read property 'join' of null"){throw new Error("Text to d
  * // outputs "01001000 01100101 01101100 01101100 01101111"
  */
 encode:function(t, sso){
-if(!t){throw new Error('No Text to encode was provided');} 
+if(!t){throw new Error("No Text to encode was provided");} 
 if(typeof t==="number"){throw new Error("text to encode must be string");}	
 try{function totxt(s,ss){
-function zeroPad(n){return '00000000'.slice(String(n).length)+n;
-}return t.replace(/[\s\S]/g,(t)=>{t=zeroPad(t.charCodeAt().toString(2));
+function zeroPad(n){return "00000000".slice(String(n).length)+n;
+}return t.replace(/[\s\S]/g,(t) => {t=zeroPad(t.charCodeAt().toString(2));
 if(sso===true){return!1===ss?t:`${t} `; }else{return!1===ss?t:`${t}`;}});}
 return totxt(t).toString();}catch(e){throw new Error(`Error ${e.stack}`);}},
 /**
