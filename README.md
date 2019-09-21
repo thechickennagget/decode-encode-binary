@@ -3,8 +3,7 @@
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
 [![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f94a6e8d8fc448e8b34eb4937144446d)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade)
-[![Discord](https://discordapp.com/api/guilds/610476577632944159/embed.png)](https://discord.gg/CFw8BMJ)       
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f94a6e8d8fc448e8b34eb4937144446d)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade)      
 [![David](https://img.shields.io/david/thechickennagget/decode-encode-binary)](https://david-dm.org/thechickennagget/decode-encode-binary)
 [![David](https://img.shields.io/david/dev/thechickennagget/decode-encode-binary)](https://david-dm.org/thechickennagget/decode-encode-binary)
 ------
