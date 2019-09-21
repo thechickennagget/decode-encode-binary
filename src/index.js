@@ -59,5 +59,6 @@ version:function(){try{return require("../package.json").version;}catch(e){throw
  * console.log(test.auto("0100100001100101011011000110110001101111"))
  * // outputs "Hello"
  */
+
 auto:function(d,spcs){
 if(/^[01][01\s]*[01]$/.test(d)){return this.decode(d);}else{if(spcs===true){return this.encode(d,true);}return this.encode(d)}}};
