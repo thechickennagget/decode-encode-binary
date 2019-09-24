@@ -22,9 +22,6 @@
   "engines": {
     "node": ">=6"
   },
-  "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/" 
-  },
   "bin": {
     "enc": "src/cli-loader.js",
     "dec": "src/cli-loader.js"
