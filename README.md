@@ -73,11 +73,7 @@ console.log(test.auto("ay", true))
 ```
 
 ## Browser Support ##
-##### You can use this module in browser too #####
-##### First you need to __[download "browser_latest.js" file from this github folder](https://github.com/TheChickenNagget/assets/tree/master/encode-decode-npm)__ and put it to your folder, and then put this to your HTML file #####
-```html
-<script src="browser_lastest.js"></script>
-```
-##### Now you can use encode() , decode() and auto() in browser in next <script></script> Tag #####
+### All Documentation how to use this in browser is right below ###
+> #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ------
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
