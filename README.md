@@ -1,5 +1,5 @@
 # Decode and encode text to binary #
-### Node module and CLI to encode, decode and auto-detect binary numbers in less than 20 ms ###
+### Node module and CLI to encode, decode and auto-detect binary numbers ###
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
 [![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
