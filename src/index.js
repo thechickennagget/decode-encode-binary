@@ -1,4 +1,6 @@
 "use strict";
+require("bluebird")
+global.Promise = require("bluebird");
 require("v8-compile-cache");
 module.exports = {
 /**

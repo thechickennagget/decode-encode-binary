@@ -13,6 +13,7 @@
     "url": "https://github.com/TheChickenNagget/encode-decode-binary-text.git"
   },
   "dependencies": {
+    "bluebird": "^3.7.2",
     "common-js": "^0.3.8",
     "v8-compile-cache": "^2.1.0"
   },
