@@ -3,11 +3,10 @@ os:
 - linux
 - windows
 - osx
-- darwin
 
 node_js:
+ - 14
  - 12
- - 10
  
 install:
   - npm install -g
