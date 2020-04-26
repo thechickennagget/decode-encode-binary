@@ -1,5 +1,5 @@
 # Decode and encode text to binary #
-### Node module and CLI to encode, decode and auto-detect binary numbers in less than 20 ms ###
+### Node module and CLI to encode, decode and auto-detect binary numbers in less than 10 ms ###
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
 [![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
@@ -77,3 +77,7 @@ console.log(test.auto("ay", true))
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ------
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
+------
+### Security And Badges ###
+![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
+![GitHub last commit](https://img.shields.io/github/last-commit/thechickennagget/decode-encode-binary?label=Last%20Commit&logo=github)
