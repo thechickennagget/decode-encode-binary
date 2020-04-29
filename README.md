@@ -1,13 +1,11 @@
 # Decode and encode text to binary #
-### Node module and CLI to encode, decode and auto-detect binary numbers in less than 110 ms ###
+### Node module and CLI to encode, decode and auto-detect binary numbers ###
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
 [![install size](https://packagephobia.now.sh/badge?p=decode-encode-binary)](https://packagephobia.now.sh/result?p=decode-encode-binary)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f94a6e8d8fc448e8b34eb4937144446d)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade)      
 [![David](https://img.shields.io/david/thechickennagget/decode-encode-binary)](https://david-dm.org/thechickennagget/decode-encode-binary)
 [![David](https://img.shields.io/david/dev/thechickennagget/decode-encode-binary)](https://david-dm.org/thechickennagget/decode-encode-binary)
-------
-##### Benchmarks at the bottom
 ------
 ## Installation ##
 ##### using [npm](https://www.npmjs.com/package/decode-encode-binary) #####
@@ -79,13 +77,6 @@ console.log(test.auto("ay", true))
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ------
  > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
-------
-
-## Benchmarks
-![node 14.0.0](https://img.shields.io/badge/14.0.0-118%20ms-blue)
-![node 12.16.2](https://img.shields.io/badge/12.16.2-97%20ms-blue)
-![node 10.18.0](https://img.shields.io/badge/10.18.0-106%20ms-blue)
-###### Theese Benchmarks were made on Computer running Windows 10, you may get 90-120 ms delays depending on your OS and Node
 ------
 ### Security And Badges ###
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
