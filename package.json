@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint ./",
-    "test": "node test/tests.js && node test/functions.js"
+    "test": "node test/tests.js && node test/functions.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,8 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "common-js": "^0.3.8",
-    "v8-compile-cache": "^2.1.0"
+    "v8-compile-cache": "^2.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^6.3.0"
@@ -41,5 +44,6 @@
     "text to binary",
     "cli"
   ],
-  "author": "thechickienagget"
+  "author": "thechickienagget",
+  "snyk": true
 }
