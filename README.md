@@ -75,5 +75,6 @@ console.log(test.auto("ay", true))
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ![sick line](https://github.com/TheChickenNagget/assets/blob/master/images/line.png)
 > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
-#### TheChickenNagget 2020, This package was mainly made with me and seniru pasan ![GitHub last commit](https://img.shields.io/github/last-commit/thechickennagget/decode-encode-binary?label=Last%20Commit&logo=github)
+####           TheChickenNagget 2020, This package was mainly made with me and seniru pasan 
+![GitHub last commit](https://img.shields.io/github/last-commit/thechickennagget/decode-encode-binary?label=Last%20Commit&logo=github)
 
