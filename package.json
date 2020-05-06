@@ -1,7 +1,7 @@
 {
   "name": "decode-encode-binary",
-  "version": "1.4.1",
-  "description": "Module and CLI to encode, decode and auto-detect binary numbers",
+  "version": "1.4.2",
+  "description": "Lightweight Module and CLI to encode, decode and auto-detect binary numbers",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -14,7 +14,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "xo": "^0.30.0"
   },
   "engines": {
     "node": ">=6"
