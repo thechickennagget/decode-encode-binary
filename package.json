@@ -6,13 +6,17 @@
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint ./",
-    "test": "node test/tests.js && node test/functions.js"
+    "test": "node test/tests.js && node test/functions.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/TheChickenNagget/encode-decode-binary-text.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.319.1"
+  },
   "devDependencies": {
     "eslint": "^6.3.0",
     "xo": "^0.30.0"
@@ -38,5 +42,6 @@
     "text to binary",
     "cli"
   ],
-  "author": "thechickienagget"
+  "author": "thechickienagget",
+  "snyk": true
 }
