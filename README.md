@@ -75,4 +75,5 @@ console.log(test.auto("ay", true))
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ------
 > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
+
 ![sick line](https://github.com/TheChickenNagget/assets/blob/master/images/line.png)
