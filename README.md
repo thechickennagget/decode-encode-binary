@@ -73,8 +73,6 @@ console.log(test.auto("ay", true))
 ## Browser Support ##
 ### All Documentation how to use this in browser is right below ###
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
-![sick line](https://github.com/TheChickenNagget/assets/blob/master/images/line.png)
+------
 > if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/thechickennagget/decode-encode-binary?label=Last%20Commit&logo=github)
-
+![sick line](https://github.com/TheChickenNagget/assets/blob/master/images/line.png)
