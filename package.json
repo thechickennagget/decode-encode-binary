@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.3.0",
+    "eslint": "^7.0.0",
     "xo": "^0.30.0"
   },
   "engines": {
