@@ -12,7 +12,9 @@
     "type": "git",
     "url": "https://github.com/TheChickenNagget/encode-decode-binary-text.git"
   },
-  "dependencies": {},
+  "xo": {
+    "space": true
+  },
   "devDependencies": {
     "eslint": "^7.0.0",
     "xo": "^0.30.0"
