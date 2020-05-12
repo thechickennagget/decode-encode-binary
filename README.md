@@ -16,7 +16,7 @@ $ yarn add decode-encode-binary
 ```
 ------
 ## Using in Terminal ##
-> - Using in Terminal/Console Requires To Have package installed with `--global` Tag
+- Using in Terminal/Console Requires To Have package installed with `--global` Tag
 
 #### Example: ####
 ```shell
