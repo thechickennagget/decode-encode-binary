@@ -10,13 +10,15 @@
 ```shell
 $ npm install decode-encode-binary
 ```
-##### using [yarn](https://yarnpkg.com/en/package/decode-encode-binary) #####
+##### using [Yarn](https://yarnpkg.com/en/package/decode-encode-binary) #####
 ```shell
 $ yarn add decode-encode-binary
 ```
 ------
 ## Using in Terminal ##
-#### you can use this by using "enc" or "dec" prefix, here's example: ####
+> - Using in Terminal/Console Requires To Have package installed with `--global` Tag
+
+#### Example: ####
 ```shell
 $ enc encode ay
 $ 001000000110000101111001
@@ -76,5 +78,6 @@ console.log(test.auto("ay", true))
 ------
 ![Create New Issue](https://img.shields.io/badge/-Create%20Issue-red?style=for-the-badge)
 ![Fork On GitHub](https://img.shields.io/badge/-Fork%20on%20Github-orange?style=for-the-badge)
+![Star On GitHub](https://img.shields.io/badge/-Star%20on%20Github-yellow?style=for-the-badge)
 
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
