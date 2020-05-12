@@ -74,7 +74,7 @@ console.log(test.auto("ay", true))
 ### All Documentation how to use this in browser is right below ###
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ------
-> if you need help [open new issue in github repository](https://github.com/ChickenNaggetGitHub/encode-decode-binary-text/issues/new)
+![Create New Issue](https://img.shields.io/badge/-Create%20Issue-red?style=for-the-badge)
+![Fork On GitHub](https://img.shields.io/badge/-Fork%20on%20Github-blue?style=for-the-badge)
 
-[![Try stripe on RunKit](https://badge.runkitcdn.com/decode-encode-binary.svg)](https://npm.runkit.com/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
