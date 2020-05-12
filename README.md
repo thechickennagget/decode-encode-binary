@@ -75,6 +75,6 @@ console.log(test.auto("ay", true))
 > #### **https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm**
 ------
 ![Create New Issue](https://img.shields.io/badge/-Create%20Issue-red?style=for-the-badge)
-![Fork On GitHub](https://img.shields.io/badge/-Fork%20on%20Github-blue?style=for-the-badge)
+![Fork On GitHub](https://img.shields.io/badge/-Fork%20on%20Github-green?style=for-the-badge)
 
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
