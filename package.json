@@ -1,6 +1,6 @@
 {
   "name": "decode-encode-binary",
-  "version": "1.4.6",
+  "version": "1.4.9",
   "description": "Lightweight Module and CLI to encode, decode and auto-detect binary numbers",
   "main": "src/index.js",
   "scripts": {
