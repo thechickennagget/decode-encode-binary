@@ -33,8 +33,8 @@ const test = require("decode-encode-binary")
 console.log(test.decode("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"))
 
 // outputs "hello world"
-------
 ```
+------
 ### Example encoding text to binary numbers ###
 ```js
 const test = require("decode-encode-binary")
