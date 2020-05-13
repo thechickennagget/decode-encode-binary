@@ -6,11 +6,11 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f94a6e8d8fc448e8b34eb4937144446d)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade)     [![David](https://img.shields.io/david/dev/thechickennagget/decode-encode-binary)](https://david-dm.org/thechickennagget/decode-encode-binary) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
 ## Installation ##
-##### using [npm](https://www.npmjs.com/package/decode-encode-binary) #####
+##### Using [npm](https://www.npmjs.com/package/decode-encode-binary) #####
 ```shell
 $ npm install decode-encode-binary
 ```
-##### using [Yarn](https://yarnpkg.com/en/package/decode-encode-binary) #####
+##### Using [Yarn](https://yarnpkg.com/en/package/decode-encode-binary) #####
 ```shell
 $ yarn add decode-encode-binary
 ```
@@ -31,8 +31,6 @@ const test = require("decode-encode-binary")
 console.log(test.decode("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"))
 
 // outputs "hello world"
-```
-#### You write spaces between numbers, It works with and without them
 ------
 
 ### Example encoding text to binary numbers ###
