@@ -9,5 +9,4 @@ if(!argv){
 console.log("                Commands");
 console.log("- encode ~ Encode provided string to binary");
 console.log("- decode ~ Decode provided string from binary");
-}
-}catch(e){throw new Error(e);}
+}}catch(e){throw new Error(e);}
