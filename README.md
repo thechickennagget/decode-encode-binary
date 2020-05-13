@@ -20,7 +20,8 @@ $ yarn add decode-encode-binary
 ```shell
 $ enc encode ay
 $ 001000000110000101111001
-
+``` 
+```shell
 $ dec decode 001000000110000101111001
 $ ay
 ```
