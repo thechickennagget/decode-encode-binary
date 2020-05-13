@@ -32,7 +32,7 @@ console.log(test.decode("0110100001100101011011000110110001101111001000000111011
 
 // outputs "hello world"
 ```
-#### you can use ot with spaces or without spaces, they work same ####
+#### You write spaces between numbers, It works with and without them
 ------
 
 ### Example encoding text to binary numbers ###
@@ -58,7 +58,7 @@ console.log(test.auto("01101111 01101011"))
 ### Other Examples ###
 ------
 ### Making spaces between every letter in binary ###
-##### ( only in encoding & encoding in auto detect ) #####
+##### ( Only Decoding/Encoding Works With This Feature ) #####
 ```js
 const test = require("decode-encode-binary")
 console.log(test.encode("ay", true))
