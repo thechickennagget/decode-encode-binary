@@ -54,9 +54,8 @@ console.log(test.auto("01101111 01101011"))
 // outputs "ok"
 
 ```
-
-### Other Examples ###
 ------
+# Other Examples #
 ### Making spaces between every letter in binary ###
 ##### ( Only Decoding/Encoding Works With This Feature ) #####
 ```js
