@@ -22,13 +22,17 @@
   "engines": {
     "node": ">=6"
   },
+    "optionalDependencies": [
+    "common-js"
+  ]
   "bin": {
     "enc": "src/cli-loader.js",
     "dec": "src/cli-loader.js"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheChickenNagget/encode-decode-binary-text/issues"
+    "url": "https://github.com/TheChickenNagget/encode-decode-binary-text/issues",
+    "email" : "tnagget@gmail.com"
   },
   "homepage": "https://github.com/TheChickenNagget/encode-decode-binary-text/blob/master/README.md",
   "keywords": [
