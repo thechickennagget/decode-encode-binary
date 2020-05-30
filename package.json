@@ -22,9 +22,6 @@
   "engines": {
     "node": ">=6"
   },
-    "optionalDependencies": {
-    "common-js": "0.3.8"
-    },
   "bin": {
     "enc": "src/cli-loader.js",
     "dec": "src/cli-loader.js"

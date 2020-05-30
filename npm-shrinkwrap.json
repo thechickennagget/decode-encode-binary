@@ -1,14 +1,5 @@
 {
   "name": "decode-encode-binary",
   "version": "1.4.10",
-  "lockfileVersion": 1,
-  "requires": true,
-  "dependencies": {
-    "common-js": {
-      "version": "0.3.8",
-      "resolved": "https://registry.npmjs.org/common-js/-/common-js-0.3.8.tgz",
-      "integrity": "sha1-9DKJGLS6N2+YGtM6Gx+7ZhQSbss=",
-      "optional": true
-    }
-  }
+  "lockfileVersion": 1
 }
