@@ -1,6 +1,6 @@
 {
   "name": "decode-encode-binary",
-  "version": "1.4.11",
+  "version": "1.4.12",
   "description": "Lightweight Module and CLI to encode, decode and auto-detect binary numbers",
   "main": "src/index.js",
   "scripts": {
@@ -11,9 +11,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/TheChickenNagget/encode-decode-binary-text.git"
-  },
-  "xo": {
-    "space": true
   },
   "devDependencies": {
     "eslint": "^7.1.0",
