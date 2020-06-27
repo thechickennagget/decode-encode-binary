@@ -72,8 +72,8 @@ console.log(test.auto("ay", true))
 ```
 
 ## Browser Support ##
-[![Documentation](https://img.shields.io/badge/-Documentation-grey?style=for-the-badge)](https://github.com/TheChickenNagget/assets/tree/master/decode-encode-binary-npm)
-  [![Copy Raw File](https://img.shields.io/badge/-Copy%20Raw%20File-grey?style=for-the-badge)](https://raw.githubusercontent.com/TheChickenNagget/assets/master/decode-encode-binary-npm/browser_lastest.js)
+[![Visit Releases](https://img.shields.io/badge/Visit-Releases-grey?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/releases/tag/latest-browser)
+[![Download Script.js](https://img.shields.io/badge/Download-Script.js-grey?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/releases/download/latest-browser/decode-encode.js)
 ------
 [![Create New Issue](https://img.shields.io/badge/-Create%20Issue-red?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/issues/new)
 [![Fork On GitHub](https://img.shields.io/badge/-Fork%20on%20Github-orange?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/fork)
