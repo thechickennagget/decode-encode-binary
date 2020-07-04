@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint ./",
-    "test": "node test/tests.js && node test/functions.js"
+    "test": "node test/tests.js && node test/functions.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,7 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheChickenNagget/encode-decode-binary-text/issues",
-    "email" : "tnagget@gmail.com"
+    "email": "tnagget@gmail.com"
   },
   "homepage": "https://github.com/TheChickenNagget/encode-decode-binary-text/blob/master/README.md",
   "keywords": [
@@ -38,5 +40,9 @@
     "text to binary",
     "cli"
   ],
-  "author": "thechickienagget"
+  "author": "thechickienagget",
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.360.0"
+  }
 }
