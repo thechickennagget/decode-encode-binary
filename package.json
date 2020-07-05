@@ -16,7 +16,8 @@
   },
   "devDependencies": {
     "eslint": "^7.1.0",
-    "xo": "^0.32.0"
+    "xo": "^0.32.0",
+    "snyk": "^1.360.0"
   },
   "engines": {
     "node": ">=6"
@@ -41,8 +42,5 @@
     "cli"
   ],
   "author": "thechickienagget",
-  "snyk": true,
-  "dependencies": {
-    "snyk": "^1.360.0"
-  }
+  "snyk": true
 }
