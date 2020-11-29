@@ -3,7 +3,7 @@ module.exports = {
      * Decodes a binary code to text
      * @param {string} binary
      * @example
-     *
+     * 
      * const test = require("decode-encode-binary")
      * console.log(test.decode("0100100001100101011011000110110001101111"))
      * // outputs "Hello"
