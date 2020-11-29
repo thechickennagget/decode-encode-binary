@@ -28,7 +28,7 @@ $ > Enter your Input (Binary or Text)
 $ > ay
 $ 001000000110000101111001
 ``` 
-```shell
+```shell 
 $ decenc
 $ > Enter your Input (Binary or Text)
 $ > 001000000110000101111001
