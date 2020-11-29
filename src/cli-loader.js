@@ -1,5 +1,5 @@
-#!/usr/bin/env node
 // eslint-disable-next-line no-console
+#!/usr/bin/env node
 
 const inquirer = require("inquirer");
 const main = require("./index.js");
