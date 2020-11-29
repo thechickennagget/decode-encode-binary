@@ -13,6 +13,8 @@
         "ecmaVersion": 2019
     },
     "rules": {
-        "no-inner-declarations": 0
+        "no-inner-declarations": 0,
+        "no-console": "off",
+        "no-inline-comments": "off"
     }
 }
