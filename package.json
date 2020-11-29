@@ -1,6 +1,6 @@
 {
   "name": "decode-encode-binary",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Lightweight Module and CLI to encode, decode and auto-detect binary numbers",
   "main": "src/index.js",
   "scripts": {
@@ -14,17 +14,17 @@
   },
   "devDependencies": {
     "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-config-airbnb": "^18.2.1",
     "xo": "^0.35.0"
   },
   "engines": {
     "node": ">=6"
   },
   "bin": {
-    "encdec": "./src/cli-loader.js",
-    "decenc": "./src/cli-loader.js"
+    "encdec": "src/cli-loader.js",
+    "decenc": "src/cli-loader.js"
   },
   "license": "MIT",
   "bugs": {
