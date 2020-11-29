@@ -1,5 +1,5 @@
 var prcs = require("child_process")
-
+ 
 console.log("                                       ")
 console.log(require(".././src/index.js").encode("hello world"))
 console.log("                                       ")
