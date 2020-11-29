@@ -19,12 +19,12 @@ module.exports = {
 
     try {
       function tobin(b) {
-        b = b.replace(/\s+/g, '');
-        b = b.match(/.{1,8}/g).join(' ');
+        b = b.replace(/\s+/g, "");
+        b = b.match(/.{1,8}/g).join(" ");
         return b
-          .split(' ')
+          .split(" ")
           .map((m) => String.fromCharCode(parseInt(m, 2)))
-          .join('');
+          .join("");
       }
       return tobin(b).toString();
     } catch (e) {
@@ -58,7 +58,7 @@ module.exports = {
     try {
       function totxt(s, ss) {
         function zeroPad(n) {
-          return '00000000'.slice(String(n).length) + n;
+          return "00000000".slice(String(n).length) + n;
         }
         return t.replace(/[\s\S]/g, (t) => {
           t = zeroPad(t.charCodeAt().toString(2));
