@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
-const inquirer = require('inquirer');
-const main = require('./index.js');
+const inquirer = require("inquirer");
+const main = require("./index.js");
 
 inquirer
   .prompt([
     {
-      name: 'text',
-      type: 'input',
-      prefix: '',
-      message: 'Enter Your Input (Binary or Text)',
+      name: "text",
+      type: "input",
+      prefix: "",
+      message: "Enter Your Input (Binary or Text)",
     },
   ])
   .then((answers) => {
@@ -27,9 +27,9 @@ inquirer
     error = error.toString();
 
     if (error.isTtyError) {
-      throw new Error('TTY Error happened');
-    } else if (error.includes('No')) {
-      console.error('! No string provided !');
+      throw new Error("TTY Error happened");
+    } else if (error.includes("No")) {
+      console.error("! No string provided !");
     } else {
       throw new Error(error);
     }

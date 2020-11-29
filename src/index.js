@@ -11,10 +11,10 @@ module.exports = {
      */
   decode(b) {
     if (!b || /^\s*$/.test(b)) {
-      throw new Error('No Decode Argument was Received');
+      throw new Error("No Decode Argument was Received");
     }
-    if (typeof b === 'number') {
-      throw new Error('Decode Argument must be string, received Number');
+    if (typeof b === "number") {
+      throw new Error("Decode Argument must be string, received Number");
     }
 
     try {
@@ -50,10 +50,10 @@ module.exports = {
      */
   encode(t, sso) {
     if (!t) {
-      throw new Error('No Encode Argument was Received');
+      throw new Error("No Encode Argument was Received");
     }
-    if (typeof t === 'number') {
-      throw new Error('Encode Argument must be string, received Number');
+    if (typeof t === "number") {
+      throw new Error("Encode Argument must be string, received Number");
     }
     try {
       function totxt(s, ss) {
@@ -82,7 +82,7 @@ module.exports = {
      */
   version() {
     try {
-      return require('../package.json').version;
+      return require("../package.json").version;
     } catch (e) {
       throw new Error(e.stack);
     }
