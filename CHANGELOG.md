@@ -4,3 +4,4 @@
 > - Starting from version 2.0.0, i Added changelog.md
 > - Uglified Code to make it more user friendly
 > - Updated old code in package.json
+ -
