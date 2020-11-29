@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TheChickenNagget/decode-encode-binary?color=dgreen&label=Package%20Size&logo=github)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f94a6e8d8fc448e8b34eb4937144446d)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade) 
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png) 
 > **:warning: Minor [API Changes](https://github.com/TheChickenNagget/decode-encode-binary/blob/master/CHANGELOG.md) were made in version 2.0.0!**
