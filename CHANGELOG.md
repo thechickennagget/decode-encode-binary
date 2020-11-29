@@ -1,3 +1,7 @@
+# 2.0.1
+>   -    Slightly Improved CLI
+>   -    Updated Package.json & Readme file
+
 # 2.0.0
 >   -    Commands were changed from `dec` & `enc` to `encdec` & `decenc`
 >   -    Heavily Updated CLI, Migrated from manual args[0] to [inquirer.js](https://www.npmjs.com/package/inquirer)
