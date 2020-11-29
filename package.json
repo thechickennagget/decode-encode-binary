@@ -20,8 +20,8 @@
     "node": ">=6"
   },
   "bin": {
-    "encdec": "src/cli-loader.js",
-    "decenc": "src/cli-loader.js"
+    "encdec": "./src/cli-loader.js",
+    "decenc": "./src/cli-loader.js"
   },
   "license": "MIT",
   "bugs": {
