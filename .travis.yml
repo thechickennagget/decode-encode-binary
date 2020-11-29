@@ -17,5 +17,7 @@ script:
   - node test/tests.js
   - node test/functions.js
   - eslint ./
-  - encdec Ayy
-  - encdec 00100000010000010111100101111001
+  - encdec 
+    Ayy
+  - encdec
+    00100000010000010111100101111001
