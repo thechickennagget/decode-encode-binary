@@ -6,6 +6,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f94a6e8d8fc448e8b34eb4937144446d)](https://www.codacy.com/manual/chickennagget14/decode-encode-binary?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheChickenNagget/decode-encode-binary&amp;utm_campaign=Badge_Grade) 
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
+> **:warning: Minor API change was made in version 3.0.0!**
 ## Installation ##
 ##### Using [npm](https://www.npmjs.com/package/decode-encode-binary) #####
 ```shell
@@ -16,7 +17,7 @@ $ npm install decode-encode-binary
 $ yarn add decode-encode-binary
 ```
 ------
-## Using in Terminal ##
+## Using in Terminal ## 
 - Using in Terminal/Console Requires To Have package installed with `--global` Tag
 ```shell
 $ enc encode ay
