@@ -18,15 +18,20 @@ $ yarn add decode-encode-binary
 ```
 ------
 ## Using in Terminal ## 
-- Using `encdec` or `decenc`, Both have same Functionallity
+- This is a Interactive prompt, Not a command
+- Use `encdec` or `decenc`, Both have same Functionallity
 - Use in Terminal uses `auto`-matic method  
 - Using in Terminal/Console Requires To Have package installed with `--global` Tag
 ```shell
-$ encdec ay
+$ encdec
+$ > Enter your Input (Binary or Text)
+$ > ay
 $ 001000000110000101111001
 ``` 
 ```shell
-$ decenc 001000000110000101111001
+$ decenc
+$ > Enter your Input (Binary or Text)
+$ > 001000000110000101111001
 $ ay
 ```
 ## Examples ##
