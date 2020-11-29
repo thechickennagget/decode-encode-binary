@@ -2,3 +2,4 @@ node_modules
 .travis.yml
 .github
 .eslintrc.json
+CHANGELOG.md
