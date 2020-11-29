@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-console
 #!/usr/bin/env node
 
 const inquirer = require("inquirer");
