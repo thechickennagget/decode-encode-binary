@@ -1,6 +1,7 @@
-# 2.0.1
+# 2.0.1 - 2.0.2
 >   -    Slightly Improved CLI
 >   -    Updated Package.json & Readme file
+>   -    Fixed few Bugs
 
 # 2.0.0
 >   -    Commands were changed from `dec` & `enc` to `encdec` & `decenc`
