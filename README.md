@@ -32,7 +32,7 @@ $ > 001000000110000101111001
 $ ay
 ```
 ## Examples ##
-### An example decoding text from binary numbers using `decode()` function ###
+#### An example decoding text from binary numbers using `decode()` function ####
 ------
 ```js
 const test = require("decode-encode-binary")
@@ -41,7 +41,7 @@ console.log(test.decode("0110100001100101011011000110110001101111001000000111011
 // outputs "hello world"
 ```
 ------
-### Example encoding text to binary numbers using `encode()` function ###
+#### Example encoding text to binary numbers using `encode()` function ####
 ```js
 const test = require("decode-encode-binary")
 console.log(test.encode("Hello world!"))
@@ -49,7 +49,7 @@ console.log(test.encode("Hello world!"))
 // outputs "01101000011001010110110001101100011011110111011101101111011100100110110001100100"
  ```
 
-### Example using Auto Detecting function using `auto()` ###
+#### Example using Auto Detecting function using `auto()` ####
 ```js
 const test = require("decode-encode-binary")
 
@@ -61,7 +61,7 @@ console.log(test.auto("01101111 01101011"))
 
 ```
 ------
-### Making space between every letter in binary ###
+#### Making space between every letter in binary ####
 ```js
 const test = require("decode-encode-binary")
 console.log(test.encode("ay", true))
