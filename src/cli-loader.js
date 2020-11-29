@@ -1,12 +1,37 @@
 #!/usr/bin/env node
 "use strict";
-var argv = process.argv.slice(2).toString();
-argv = argv.replace(",", "");
-try{
-if(argv.search("encode")===0){argv=argv.replace("encode","");console.log(require("./index.js").encode(argv.toString()));process.exit(0);}
-if(argv.search("decode")===0){argv=argv.replace("decode","");if(argv === null ||  /^\s*$/.test(argv)){return console.error("> No Text to decode was provided");} console.log(require("./index.js").decode(argv.toString()));process.exit(0);}
-if(!argv){
-console.log("                Commands");
-console.log("- encode ~ Encode provided string to binary");
-console.log("- decode ~ Decode provided string from binary");
-}}catch(e){throw new Error(e);}
+var inquirer = require('inquirer');
+var main = require("./index.js");
+
+inquirer
+  .prompt([
+     {
+    name: "text",
+    type: "input",
+    prefix: "",
+    message: "Enter Your Input (Binary or Text)",
+     }
+  ])
+  .then(answers => {
+      // First check if string is binary number 
+        switch(/^[01][01\s]*[01]$/.test(answers.text)){
+         case true:
+       console.log(main.decode(answers.text));
+         break; 
+         case false:
+       console.log(main.encode(answers.text));
+         break;
+        }
+  })
+  .catch(error => { error = error.toString()
+
+if(error.isTtyError) { 
+   throw new Error("TTY Error happened") } else {
+
+if(error.includes("No")){ 
+   console.error("! No string provided !") } else {
+
+  throw new Error(error)
+    }
+   }
+  });

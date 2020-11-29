@@ -20,8 +20,8 @@
     "node": ">=6"
   },
   "bin": {
-    "enc": "src/cli-loader.js",
-    "dec": "src/cli-loader.js"
+    "encdec": "src/cli-loader.js",
+    "decenc": "src/cli-loader.js"
   },
   "license": "MIT",
   "bugs": {
@@ -38,5 +38,8 @@
     "text to binary",
     "cli"
   ],
-  "author": "thechickienagget"
+  "author": "thechickienagget",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }

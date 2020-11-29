@@ -1,3 +1,5 @@
+var prcs = require("child_process")
+
 console.log("                                       ")
 console.log(require(".././src/index.js").encode("hello world"))
 console.log("                                       ")
@@ -9,5 +11,6 @@ console.log(require(".././src/index.js").auto("011010000110010101101100011011000
 console.log("                                       ")
 console.log(require(".././src/index.js").version())
 console.log("                                       ")
-console.log(require("child_process").execSync("enc encode ayo").toString())
-console.log(require("child_process").execSync("enc decode 00100000011000010111100101101111").toString()) 
+
+console.log(prcs.execSync("encdec ayo").toString())
+console.log(prcs.execSync("encdec 00100000011000010111100101101111").toString()) 
