@@ -5,10 +5,8 @@
 
 version: 2
 updates:
+  - package-ecosystem: "" # See documentation for possible values
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    update_schedule: "daily"
-    automerged_updates: 
-        - match:
-          dependency_type: "production"
-          update_type: "all"
+    schedule:
+      interval: "daily"
