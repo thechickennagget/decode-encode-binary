@@ -5,8 +5,8 @@ os:
 - osx
 
 node_js:
+ - 15
  - 14
- - 12
  
 install:
   - npm install -g
