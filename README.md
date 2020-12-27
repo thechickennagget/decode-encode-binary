@@ -5,7 +5,6 @@
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png) 
-> **:warning: Minor [API Changes](https://github.com/TheChickenNagget/decode-encode-binary/blob/master/CHANGELOG.md) were made in version 2.0.0!**
 ## Installation ##
 ##### Using [npm](https://www.npmjs.com/package/decode-encode-binary) #####
 ```shell
