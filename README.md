@@ -28,7 +28,7 @@ $ 0100100001101001
 $ decenc
 $ > Enter your Input (Binary or Text)
 $ > 0100100001101001
-$ > Hi
+$ Hi
 ```
 ## Examples ##
 #### An example decoding text from binary numbers using `decode()` function ####
