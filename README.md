@@ -1,6 +1,6 @@
 # Decode and encode text to binary #
 ### Node module and CLI to encode, decode and auto-detect binary numbers ### 
-[![Build Status](https://travis-ci.org/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.org/TheChickenNagget/decode-encode-binary)
+[![Build Status](https://travis-ci.com/TheChickenNagget/decode-encode-binary.svg?branch=master)](https://travis-ci.com/TheChickenNagget/decode-encode-binary)
 ![GitHub repo size](https://img.shields.io/github/repo-size/TheChickenNagget/decode-encode-binary?color=dgreen&label=Package%20Size&logo=github)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
