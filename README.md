@@ -16,19 +16,19 @@ $ yarn add decode-encode-binary
 ```
 ------
 ## Using in Terminal ## 
-- Use `encdec` or `decenc`, Both have same Functionallity
+- Use `encdec` & `decenc`, You can use both
 - Using in Terminal/Console Requires To Have package installed with `--global` Tag
 ```shell
 $ encdec
 $ > Enter your Input (Binary or Text)
-$ > ay
-$ 001000000110000101111001
+$ > Hi
+$ 0100100001101001
 ``` 
 ```shell 
 $ decenc
 $ > Enter your Input (Binary or Text)
-$ > 001000000110000101111001
-$ ay
+$ > 0100100001101001
+$ > Hi
 ```
 ## Examples ##
 #### An example decoding text from binary numbers using `decode()` function ####
@@ -52,28 +52,28 @@ console.log(test.encode("Hello world!"))
 ```js
 const test = require("decode-encode-binary")
 
-console.log(test.auto("ok"))
-// outputs 0110111101101011
+console.log(test.auto("Hi"))
+// outputs 0100100001101001
 
-console.log(test.auto("01101111 01101011"))  
-// outputs "ok"
+console.log(test.auto("0100100001101001"))  
+// outputs "Hi"
 
 ```
 ------
 #### Making space between every letter in binary ####
 ```js
 const test = require("decode-encode-binary")
-console.log(test.encode("ay", true))
+console.log(test.encode("Hi", true))
 
-// outputs "01100001 01111001"
+// outputs "01001000 01101001"
 
 /*  Auto detection support */
 
-console.log(test.auto("ay", true))
-// outputs "01100001 01111001"
+console.log(test.auto("Hi", true))
+// outputs "01001000 01101001"
 ```
 [![Create New Issue](https://img.shields.io/badge/-Create%20Issue-red?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/issues/new)
 [![Fork On GitHub](https://img.shields.io/badge/-Fork%20on%20Github-orange?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/fork)
 [![Star On GitHub](https://img.shields.io/badge/-Star%20on%20Github-yellow?style=for-the-badge)](https://github.com/TheChickenNagget/decode-encode-binary/stargazers)
-[![Try on Runkit](https://img.shields.io/badge/-Try%20on%20Runkit-green?style=for-the-badge)](https://npm.runkit.com/decode-encode-binary)
+[![Try on Runkit](https://img.shields.io/badge/-Try%20on%20Runkit-black?style=for-the-badge)](https://npm.runkit.com/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
