@@ -40,7 +40,7 @@ console.log(test.decode("0110100001100101011011000110110001101111001000000111011
 // outputs "hello world"
 ```
 ------
-#### Example encoding text to binary numbers using `encode()` function ####
+#### An example encoding text to binary numbers using `encode()` function ####
 ```js
 const test = require("decode-encode-binary")
 console.log(test.encode("Hello world!"))
@@ -48,7 +48,7 @@ console.log(test.encode("Hello world!"))
 // outputs "01101000011001010110110001101100011011110111011101101111011100100110110001100100"
  ```
 
-#### Example using Auto Detecting function using `auto()` ####
+#### An example using Auto Detecting function using `auto()` ####
 ```js
 const test = require("decode-encode-binary")
 
