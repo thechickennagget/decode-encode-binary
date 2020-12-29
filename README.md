@@ -30,16 +30,15 @@ $ > Enter your Input (Binary or Text)
 $ > 0100100001101001
 $ Hi
 ```
+------
 ## Examples ##
 #### An example decoding text from binary numbers using `decode()` function ####
-------
 ```js
 const test = require("decode-encode-binary")
 console.log(test.decode("0110100001100101011011000110110001101111001000000111011101101111011100100110110001100100"))
 
 // outputs "hello world"
 ```
-------
 #### An example encoding text to binary numbers using `encode()` function ####
 ```js
 const test = require("decode-encode-binary")
@@ -47,7 +46,6 @@ console.log(test.encode("Hello world!"))
 
 // outputs "01101000011001010110110001101100011011110111011101101111011100100110110001100100"
  ```
-
 #### An example using Auto Detecting function using `auto()` ####
 ```js
 const test = require("decode-encode-binary")
