@@ -15,7 +15,7 @@ $ npm install decode-encode-binary
 $ yarn add decode-encode-binary
 ```
 ------
-## Using in Terminal ## 
+## Using in Terminal ##  
 - Use `encdec` & `decenc`, You can use both
 - Using in Terminal/Console Requires To Have package installed with `--global` Tag
 ```shell
