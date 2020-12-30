@@ -32,21 +32,21 @@ $ Hi
 ```
 ------
 ## Examples ##
-#### An example decoding text from binary numbers using `decode()` function ####
+#### An example decoding text from binary numbers using decode function ####
 ```js
 const test = require("decode-encode-binary")
 console.log(test.decode("0100100001100101011011000110110001101111"))
 
 // outputs "Hello"
 ```
-#### An example encoding text to binary numbers using `encode()` function ####
+#### An example encoding text to binary numbers using encode function ####
 ```js
 const test = require("decode-encode-binary")
 console.log(test.encode("Hello"))
 
 // outputs "0100100001100101011011000110110001101111"
  ```
-#### An example using Auto Detecting function using `auto()` ####
+#### An example using Auto Detecting function using auto ####
 ```js
 const test = require("decode-encode-binary")
 
