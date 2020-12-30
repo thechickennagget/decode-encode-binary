@@ -17,7 +17,7 @@ $ yarn add decode-encode-binary
 ```
 ------
 ## Using in Terminal ##  
-- Use `encdec` & `decenc`, You can use both
+- The Terminal command is `encdec` or `decenc`, Both have same Functionallity
 - Using in Terminal/Console Requires To Have package installed with `--global` Tag
 ```shell
 $ encdec
