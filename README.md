@@ -46,7 +46,7 @@ console.log(test.encode("Hello"))
 
 // outputs "0100100001100101011011000110110001101111"
  ```
-#### An example using Auto Detecting function using auto ####
+#### An example using Auto Detecting function using auto function ####
 ```js
 const test = require("decode-encode-binary")
 
