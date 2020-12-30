@@ -4,6 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/TheChickenNagget/decode-encode-binary?color=dgreen&label=Package%20Size&logo=github)
 [![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)](https://www.npmjs.com/package/decode-encode-binary)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/decode-encode-binary)
+[![Changelog](https://img.shields.io/badge/-Changelog%20%F0%9F%93%9D-blue)](https://github.com/TheChickenNagget/decode-encode-binary/blob/master/CHANGELOG.md)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png) 
 ## Installation ##
 ##### Using [npm](https://www.npmjs.com/package/decode-encode-binary) #####
