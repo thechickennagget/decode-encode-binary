@@ -3,28 +3,29 @@ module.exports = {
      * Decodes a binary code to text
      * @param {string} binary
      * @example
-     * 
+     *
      * const test = require("decode-encode-binary")
      * console.log(test.decode("0100100001100101011011000110110001101111"))
      * // outputs "Hello"
      *
      */
+
   decode(b) {
     if (!b || /^\s*$/.test(b)) {
-      throw new Error("No Decode Argument was Received");
+      throw new Error('No Decode Argument was Received');
     }
-    if (typeof b === "number") {
-      throw new Error("Decode Argument must be string, received Number");
+    if (typeof b === 'number') {
+      throw new Error('Decode Argument must be string, received Number');
     }
 
     try {
       function tobin(b) {
-        b = b.replace(/\s+/g, "");
-        b = b.match(/.{1,8}/g).join(" ");
+        b = b.replace(/\s+/g, '');
+        b = b.match(/.{1,8}/g).join(' ');
         return b
-          .split(" ")
+          .split(' ')
           .map((m) => String.fromCharCode(parseInt(m, 2)))
-          .join("");
+          .join('');
       }
       return tobin(b).toString();
     } catch (e) {
@@ -50,15 +51,15 @@ module.exports = {
      */
   encode(t, sso) {
     if (!t) {
-      throw new Error("No Encode Argument was Received");
+      throw new Error('No Encode Argument was Received');
     }
-    if (typeof t === "number") {
-      throw new Error("Encode Argument must be string, received Number");
+    if (typeof t === 'number') {
+      throw new Error('Encode Argument must be string, received Number');
     }
     try {
       function totxt(s, ss) {
         function zeroPad(n) {
-          return "00000000".slice(String(n).length) + n;
+          return '00000000'.slice(String(n).length) + n;
         }
         return t.replace(/[\s\S]/g, (t) => {
           t = zeroPad(t.charCodeAt().toString(2));
@@ -73,20 +74,7 @@ module.exports = {
       throw new Error(`Error ${e.stack}`);
     }
   },
-  /**
-     * Checks current version of this dependency
-     * @example
-     * const test = require("decode-encode-binary")
-     * console.log(test.version())
-     * // outputs current this dependency version
-     */
-  version() {
-    try {
-      return require("../package.json").version;
-    } catch (e) {
-      throw new Error(e.stack);
-    }
-  },
+
   /**
      * Automatically determine if you wan't to decode or encode
      * @param {string} detect
@@ -98,6 +86,7 @@ module.exports = {
      * console.log(test.auto("0100100001100101011011000110110001101111"))
      * // outputs "Hello"
      */
+
   auto(d, spcs) {
     if (/^[01][01\s]*[01]$/.test(d)) {
       return this.decode(d);
@@ -106,5 +95,13 @@ module.exports = {
       return this.encode(d, true);
     }
     return this.encode(d);
+  },
+  
+  version() {
+    try {
+      return require('../package.json').version;
+    } catch (e) {
+      throw new Error(e.stack);
+    }
   },
 };
