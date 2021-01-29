@@ -1,6 +1,4 @@
-node_modules/
 test/
 .travis.yml
-.github
+.github/
 .eslintrc.json
-CHANGELOG.md
