@@ -4,21 +4,16 @@
   "description": "Lightweight Module/CLI to encode and decode binary numbers",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TheChickenNagget/decode-encode-binary.git"
+  "dependencies": {
+    "inquirer": "latest"
   },
   "devDependencies": {
-    "eslint": "^8.25.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
-  },
-  "engines": {
-    "node": ">=6"
+    "eslint": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest"
   },
   "type": "module",
   "bin": {
@@ -26,11 +21,15 @@
     "decenc": "src/cli-loader.js"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TheChickenNagget/decode-encode-binary/issues",
-    "email": "tnagget@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thechickennagget/decode-encode-binary.git"
   },
-  "homepage": "https://github.com/TheChickenNagget/decode-encode-binary/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/thechickennagget/decode-encode-binary/issues",
+    "email": "chickendrop89@gmail.com"
+  },
+  "homepage": "https://github.com/thechickennagget/decode-encode-binary/blob/master/README.md",
   "keywords": [
     "decode",
     "encode",
@@ -38,8 +37,5 @@
     "text to binary",
     "cli"
   ],
-  "author": "thechickienagget",
-  "dependencies": {
-    "inquirer": "^9.1.3"
-  }
+  "author": "thechickienagget"
 }
