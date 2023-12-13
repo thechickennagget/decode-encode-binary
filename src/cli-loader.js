@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const inquirer = require("inquirer");
-const main = require("./index.js");
+import inquirer from "inquirer";
+import {encode, decode} from "./index.js";
 
 inquirer
   .prompt([
@@ -16,10 +16,10 @@ inquirer
     // First check if string is binary number
     switch (/^[01][01\s]*[01]$/.test(input.text)) {
       case true:
-        console.log(main.decode(input.text));
+        console.log(decode(input.text));
         break;
       case false:
-        console.log(main.encode(input.text));
+        console.log(encode(input.text));
         break;
     }
   })
