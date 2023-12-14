@@ -1,20 +1,11 @@
 {
-    "env": {
-        "node": true,
-        "commonjs": true,
-        "es6": true
-    },
-    "extends": "airbnb-base",
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parserOptions": {
-        "ecmaVersion": 2023
-    },
+    "extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:import/recommended"
+    ],
+    "plugins": ["import"],
     "rules": {
-        "no-inner-declarations": 0,
-        "no-console": "off",
-        "no-inline-comments": "off"
+        "import/extensions": [0, "always"]
     }
 }
