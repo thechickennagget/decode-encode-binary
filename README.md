@@ -1,9 +1,8 @@
 # decode-encode-binary
-### Lightweight Node Module/CLI to encode & decode binary numbers
+### A Module/CLI to encode & decode binary numbers
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/TheChickenNagget/decode-encode-binary?color=dgreen&label=Package%20Size&logo=github)
 ![Total Downloads](https://badgen.net/npm/dt/decode-encode-binary)
-![Required node version](https://badgen.net/npm/node/decode-encode-binary)
 ![Line](https://github.com/TheChickenNagget/assets/raw/master/images/line.png)
 
 ## Installation
@@ -23,60 +22,52 @@ $ yarn add decode-encode-binary
 - Using in Terminal requires to have package installed with the `--global` tag
 ```shell
 $ encdec
-$ > Enter your Input (Binary or Text)
+$ > Enter your input (Binary/Text)
 $ > Hi
 $ 0100100001101001
 ```
 ```shell 
 $ decenc
-$ > Enter your Input (Binary or Text)
+$ > Enter your input (Binary/Text)
 $ > 0100100001101001
 $ Hi
 ```
 ------
 
 ## Examples
-#### An example **Decoding** text from binary numbers
+#### An example of **decoding** text from binary numbers
 
 ```js
 const test = require("decode-encode-binary");
-console.log(test.decode("0100100001100101011011000110110001101111"))
+test.decode("0100100001100101011011000110110001101111");
 
-// outputs "Hello"
+// output: "Hello"
 ```
 
-#### An example **Encoding** text to binary numbers
+#### An example of **encoding** text to binary numbers
 ```js
 const test = require("decode-encode-binary");
-console.log(test.encode("Hello"))
+test.encode("Hello");
 
-// outputs "0100100001100101011011000110110001101111"
+// output: "0100100001100101011011000110110001101111"
+```
+- A binary letter padding can be used by setting boolean as the second parameter
+```js
+const test = require("decode-encode-binary");
+test.encode("Hi", true);
+
+// output: "01001000 01101001"
 ```
 
-#### An example using **Auto Detection**
+#### An example of using `determine`
 ```js
 const test = require("decode-encode-binary");
 
-console.log(test.auto("Hi"))
-// outputs 0100100001101001
+test.determine("Hi");
+// output: 0100100001101001
 
-console.log(test.auto("0100100001101001"))  
-// outputs "Hi"
-
-```
-------
-
-#### Making whitespace between every letter in binary
-```js
-const test = require("decode-encode-binary");
-console.log(test.encode("Hi", true))
-
-// outputs "01001000 01101001"
-
-/*  Auto detection support  */
-console.log(test.auto("Hi", true))
-
-// outputs "01001000 01101001"
+test.determine("0100100001101001");
+// output: "Hi"
 ```
 
 [![Try on Runkit](https://img.shields.io/badge/-Try%20on%20Runkit-red?style=for-the-badge)](https://npm.runkit.com/decode-encode-binary)
