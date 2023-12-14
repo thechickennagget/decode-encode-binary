@@ -16,10 +16,10 @@ inquirer
     // First check if string is a binary
     switch (/^[01][01\s]*[01]$/.test(input.text)) {
       case true:
-        console.log(decode(input.text));
+        process.stdout.write(`${decode(input.text)}\n`);
         break;
       case false:
-        console.log(encode(input.text));
+        process.stdout.write(`${encode(input.text)}\n`);
         break;
       default:
         throw new Error('Unknown String');
