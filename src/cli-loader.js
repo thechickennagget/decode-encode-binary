@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
-import inquirer from "inquirer";
-import {encode, decode} from "./index.js";
+import inquirer from 'inquirer';
+import { encode, decode } from './index.js';
 
 inquirer
   .prompt([
     {
-      name: "text",
-      type: "input",
-      prefix: "",
-      message: "Enter Your Input (Binary or Text)",
+      name: 'text',
+      type: 'input',
+      prefix: '',
+      message: 'Enter your input (Binary/Text)',
     },
   ])
   .then((input) => {
-    // First check if string is binary number
+    // First check if string is a binary
     switch (/^[01][01\s]*[01]$/.test(input.text)) {
       case true:
         console.log(decode(input.text));
@@ -21,15 +21,13 @@ inquirer
       case false:
         console.log(encode(input.text));
         break;
+      default:
+        throw new Error('Unknown String');
     }
   })
   .catch((error) => {
-    error = error.toString();
-
     if (error.isTtyError) {
-      throw new Error("TTY Error happened");
-    } else if (error.includes("No")) {
-      console.error("! No string provided !");
+      throw new Error('TTY error');
     } else {
       throw new Error(error);
     }
